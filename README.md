@@ -10,7 +10,7 @@ Graduate coursework at Ohio University, organized by class: code, notes, homewor
 | `Nuclear_Physics_Lectures/` | Nuclear physics lecture slides and study guides |
 | `Nuclear_Grad_Lab_PHYS6751/` | Graduate nuclear lab: lab reports, analysis code, data, Geant4 simulation output, notes, final presentation |
 | `Nuclear_Seminars/` | Nuclear seminars: notes, papers, my seminar talk |
-| `Computational_Physics_PHYS4071-5071/` | Computational Physics: homework, my notebooks, tutorials and final project |
+| `Computational_Physics_PHYS4071-5071/` | Computational Physics: Homework 1–11, midterm, final project (sunspot analysis), my notebooks, tutorials |
 | `Electrodynamics_PHYS7501/` | Electrodynamics: Jackson homework solutions, course documents |
 | `Particle_Physics_PHYS7502/` | Particle Physics: homework, midterm, QED/QCD calculations, review guides, lecture slides |
 | `Other_Courses/` | Quantum (PHYS6020/6021), Math Methods (PHYS5041), other homework and course attachments |
