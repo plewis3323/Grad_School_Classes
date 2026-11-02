@@ -1,0 +1,98 @@
+Script started on 2024-10-22 14:25:56-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab2:Cosmics/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab2:Cosmics/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun2[0m[38;5;83m[1m()[D[D[D[D[D[D[0mRun1()[D[D[D[D[D[D.L muon_angD.C 
+[0m[0mroot [1] .L muon_angD.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun2[0m[38;5;83m[1m()[D[D[D[D[D[D[0mRun1()
+[0mThe Rate Errors are: 0.343188
+The Rate Errors are: 0.387298
+The Rate Errors are: 0.35746
+The Rate Errors are: 0.310913
+The Rate Errors are: 0.256038
+The Rate Errors are: 0.24267
+The Rate Errors are: 0.191485
+The Rate Errors are: 0.137437
+The Rate Errors are: 0.11547
+The Rate Errors are: 0.110554
+The angles in radians are: 0
+The angles in radians are: 0.174533
+The angles in radians are: 0.349066
+The angles in radians are: 0.523599
+The angles in radians are: 0.698132
+The angles in radians are: 0.872665
+The angles in radians are: 1.0472
+The angles in radians are: 1.22173
+The angles in radians are: 1.39626
+The angles in radians are: 1.5708
+The cos^2 values are: 1
+The cos^2 values are: 0.969846
+The cos^2 values are: 0.883022
+The cos^2 values are: 0.75
+The cos^2 values are: 0.586824
+The cos^2 values are: 0.413176
+The cos^2 values are: 0.25
+The cos^2 values are: 0.116978
+The cos^2 values are: 0.0301537
+The cos^2 values are: 3.7494e-33
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      7.59123
+NDf                       =            6
+Edm                       =  3.13296e-06
+NCalls                    =          211
+p0                        =      3.59092   +/-   0.267529    
+p1                        =      1.10446   +/-   0.124654    
+p2                        =   -0.0432064   +/-   0.13935     
+p3                        =     0.340597   +/-   0.0724179   
+[0mroot [2] Run1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L muon_angD.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[DRun1[0m[38;5;83m[1m()[K[D[D[D[D[D[D[K[0mRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L muon_angD.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun2[0m[38;5;83m[1m()
+[0mWarning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+The Rate Errors are: 0.343188
+The Rate Errors are: 0.387298
+The Rate Errors are: 0.35746
+The Rate Errors are: 0.310913
+The Rate Errors are: 0.256038
+The Rate Errors are: 0.24267
+The Rate Errors are: 0.191485
+The Rate Errors are: 0.137437
+The Rate Errors are: 0.11547
+The Rate Errors are: 0.110554
+The angles in radians are: 0
+The angles in radians are: 0.174533
+The angles in radians are: 0.349066
+The angles in radians are: 0.523599
+The angles in radians are: 0.698132
+The angles in radians are: 0.872665
+The angles in radians are: 1.0472
+The angles in radians are: 1.22173
+The angles in radians are: 1.39626
+The angles in radians are: 1.5708
+The cos^2 values are: 1
+The cos^2 values are: 0.969846
+The cos^2 values are: 0.883022
+The cos^2 values are: 0.75
+The cos^2 values are: 0.586824
+The cos^2 values are: 0.413176
+The cos^2 values are: 0.25
+The cos^2 values are: 0.116978
+The cos^2 values are: 0.0301537
+The cos^2 values are: 3.7494e-33
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      10.1791
+NDf                       =            8
+Edm                       =  2.98298e-23
+NCalls                    =           31
+p0                        =      3.57358   +/-   0.199647    
+p1                        =     0.272611   +/-   0.0701242   
+[0mroot [3] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab2:Cosmics/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab2:Cosmics/codes[00m$ exit
+[?2004lexit
+
+Script done on 2024-10-22 14:30:16-05:00 [COMMAND_EXIT_CODE="0"]

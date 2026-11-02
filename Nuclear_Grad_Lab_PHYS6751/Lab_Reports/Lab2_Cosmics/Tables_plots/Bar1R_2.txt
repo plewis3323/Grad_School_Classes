@@ -1,0 +1,124 @@
+Script started on 2024-10-09 12:14:35-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab2:Cosmics/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab2:Cosmics/codes[00m$ root
+[?2004l
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[D.[K[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0mRun1()[D[D[D[D[D[DRun1()[D[D[D[D[D[D.L Bar1R.C 
+[0m[0mroot [1] .L Bar1R.C [D[D[D[D[D[D[D[D[D[D[D.q[K[D[D.[K[DRun1[0m[38;5;83m[1m()
+[0mThe Count rates are: 622.65
+The Count rates are: 665.35
+The Count rates are: 620
+The Count rates are: 550.7
+The Count rates are: 554.85
+The Count rates are: 478.1
+The Count rates are: 411.9
+The Count rates are: 372.05
+The Count rates are: 318.7
+The Count rates are: 281.2
+The Count rates are: 244
+The Count rates are: 15313
+The Count rates are: 3149.05
+The Count rates are: 2051.2
+The Count rates are: 883.8
+The Counts are: 12453
+The Voltages are: 51.4
+The Count errors are: 24.953
+The Counts are: 13307
+The Voltages are: 60.4
+The Count errors are: 25.7944
+The Counts are: 12400
+The Voltages are: 69.8
+The Count errors are: 24.8998
+The Counts are: 11014
+The Voltages are: 81.4
+The Count errors are: 23.467
+The Counts are: 11097
+The Voltages are: 90.2
+The Count errors are: 23.5553
+The Counts are: 9562
+The Voltages are: 100.1
+The Count errors are: 21.8655
+The Counts are: 8238
+The Voltages are: 110.6
+The Count errors are: 20.2953
+The Counts are: 7441
+The Voltages are: 120.1
+The Count errors are: 19.2886
+The Counts are: 6374
+The Voltages are: 130.5
+The Count errors are: 17.8522
+The Counts are: 5624
+The Voltages are: 139.1
+The Count errors are: 16.769
+The Counts are: 4880
+The Voltages are: 150.8
+The Count errors are: 15.6205
+The Counts are: 306259
+The Voltages are: 20
+The Count errors are: 123.746
+The Counts are: 62981
+The Voltages are: 30.5
+The Count errors are: 56.1164
+The Counts are: 41024
+The Voltages are: 41
+The Count errors are: 45.2902
+The Counts are: 17676
+The Voltages are: 49.8
+The Count errors are: 29.7288
+The 4 smallest elements based on left and right neighbor differences:
+Element 11014 at index 3 with combined difference of 1469
+Element 5624 at index 9 with combined difference of 1494
+Element 11097 at index 4 with combined difference of 1618
+Element 13307 at index 1 with combined difference of 1761
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =      8322.28
+NDf                       =           11
+p0                        =      11559.8   +/-   126.165     
+p1                        =     -350.069   +/-   4.4596      
+p2                        =      3.47353   +/-   0.0486076   
+p3                        =   -0.0110047   +/-   0.000165896 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      18577.6
+NDf                       =           14
+Edm                       =  2.76811e-15
+NCalls                    =           13
+p0                        =      529.261   +/-   5.94004     
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab2:Cosmics/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab2:Cosmics/codes[00m$ exit
+[?2004l
+
+
+
+V_th =  85.8 mv  (90.2 mv)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+exit
+
+Script done on 2024-10-09 12:15:18-05:00 [COMMAND_EXIT_CODE="0"]

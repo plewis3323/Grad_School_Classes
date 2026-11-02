@@ -1,0 +1,55 @@
+Script started on 2024-12-10 16:13:57-06:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="110" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Rutherford_Energy_cal.C 
+[0m[0mroot [1] .L Rutherford_Energy_cal.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      87.6438
+NDf                       =            6
+Edm                       =  3.95926e-08
+NCalls                    =           66
+p0                        =    0.0118092   +/-   4.87582e-06 
+p1                        =      0.11717   +/-   0.00134936  
+
+2x2 matrix is as follows
+
+     |      0    |      1    |
+-------------------------------
+   0 |  2.377e-11  -6.183e-09 
+   1 | -6.183e-09   1.821e-06 
+
+Slope (a): 0.0118092 ± 4.87582e-06
+Intercept (b): 0.11717 ± 0.00134936
+Covariance Cov(a, b): -6.18334e-09
+Channel 183.098: New Energy = 2.27941, Calibration Error = 0.000594523
+Channel 196.004: New Energy = 2.43182, Calibration Error = 0.000556929
+Channel 280.418: New Energy = 3.42868, Calibration Error = 0.000471537
+Channel 262.462: New Energy = 3.21663, Calibration Error = 0.00046115
+Channel 340.914: New Energy = 4.14309, Calibration Error = 0.000606481
+Channel 364.018: New Energy = 4.41593, Calibration Error = 0.000685051
+Channel 529.784: New Energy = 6.37349, Calibration Error = 0.00139344
+Channel 497.239: New Energy = 5.98916, Calibration Error = 0.0012448
+Channel 183.098: Residual = 0.00350192 ± 0.0355706
+Channel 196.004: Residual = -0.000537443 ± 0.043032
+Channel 280.418: Residual = -0.00743812 ± 0.0478913
+Channel 262.462: Residual = -0.00418236 ± 0.0374834
+Channel 340.914: Residual = -0.00237667 ± 0.0426974
+Channel 364.018: Residual = -0.00609611 ± 0.055078
+Channel 529.784: Residual = 0.0115723 ± 0.0692381
+Channel 497.239: Residual = 0.00623225 ± 0.0548298
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ exit
+[?2004l
+exit
+
+Script done on 2024-12-10 16:14:31-06:00 [COMMAND_EXIT_CODE="0"]

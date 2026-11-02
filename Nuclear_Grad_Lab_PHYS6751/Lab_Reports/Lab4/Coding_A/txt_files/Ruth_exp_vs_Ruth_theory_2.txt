@@ -1,0 +1,104 @@
+Script started on 2024-11-24 15:22:05-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DMain_algorithm[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[0m.L Rutherfordexp_Ruther_theory.C 
+[0m[0mroot [1] .L Rutherfordexp_Ruther_theory.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DMain_algorithm[0m[38;5;83m[1m()
+[0mInitial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 154.9 degrees
+Adjusted Angle: 154.9 degrees
+Theoretical Cross Section: 5698.02 ± 88.6202 mb/sr
+Experimental Cross Section: 3618.64 ± 1264.53 mb/sr
+Ratio (Exp/Theo): 0.63507 ± 0.222144
+--------------------------------------------------------
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 60 degrees
+Adjusted Angle: 60 degrees
+Theoretical Cross Section: 82820.3 ± 10015.1 mb/sr
+Experimental Cross Section: 5760.12 ± 2012.49 mb/sr
+Ratio (Exp/Theo): 0.0695496 ± 0.0257138
+--------------------------------------------------------
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 50 degrees
+Adjusted Angle: 50 degrees
+Theoretical Cross Section: 162269 ± 24294.7 mb/sr
+Experimental Cross Section: 19216.4 ± 6712.89 mb/sr
+Ratio (Exp/Theo): 0.118423 ± 0.0450083
+--------------------------------------------------------
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 40 degrees
+Adjusted Angle: 40 degrees
+Theoretical Cross Section: 378292 ± 72561.1 mb/sr
+Experimental Cross Section: 20178.6 ± 7049.02 mb/sr
+Ratio (Exp/Theo): 0.0533414 ± 0.021258
+--------------------------------------------------------
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 315 degrees
+Adjusted Angle: 45 degrees
+Theoretical Cross Section: 241364 ± 40681.2 mb/sr
+Experimental Cross Section: 4719.89 ± 1649.17 mb/sr
+Ratio (Exp/Theo): 0.0195551 ± 0.0075861
+--------------------------------------------------------
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 305 degrees
+Adjusted Angle: 55 degrees
+Theoretical Cross Section: 113868 ± 15271.4 mb/sr
+Experimental Cross Section: 74889.1 ± 26159.7 mb/sr
+Ratio (Exp/Theo): 0.657685 ± 0.246089
+--------------------------------------------------------
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 295 degrees
+Adjusted Angle: 65 degrees
+Theoretical Cross Section: 62107.4 ± 6806.49 mb/sr
+Experimental Cross Section: 39527.5 ± 13807.7 mb/sr
+Ratio (Exp/Theo): 0.636437 ± 0.233003
+--------------------------------------------------------
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 270 degrees
+Adjusted Angle: 90 degrees
+Theoretical Cross Section: 20701.9 ± 1445.56 mb/sr
+Experimental Cross Section: 12516.5 ± 4372.46 mb/sr
+Ratio (Exp/Theo): 0.604607 ± 0.215389
+--------------------------------------------------------
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 245 degrees
+Adjusted Angle: 115 degrees
+Theoretical Cross Section: 10226.8 ± 455.037 mb/sr
+Experimental Cross Section: 4228.27 ± 1477.33 mb/sr
+Ratio (Exp/Theo): 0.413448 ± 0.145623
+--------------------------------------------------------
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 225 degrees
+Adjusted Angle: 135 degrees
+Theoretical Cross Section: 7100.95 ± 205.466 mb/sr
+Experimental Cross Section: 4214.87 ± 1472.8 mb/sr
+Ratio (Exp/Theo): 0.593564 ± 0.208118
+--------------------------------------------------------
+Initial Alphas: 1.5625e+11 ± 395285
+Angle: 325 degrees
+Adjusted Angle: 35 degrees
+Theoretical Cross Section: 633095 ± 140180 mb/sr
+Experimental Cross Section: 448482 ± 156663 mb/sr
+Ratio (Exp/Theo): 0.708397 ± 0.29298
+--------------------------------------------------------
+Initial Alphas: 1.5625e+11 ± 395285
+Angle: 30 degrees
+Adjusted Angle: 30 degrees
+Theoretical Cross Section: 1.15359e+06 ± 300566 mb/sr
+Experimental Cross Section: 657537 ± 229687 mb/sr
+Ratio (Exp/Theo): 0.569991 ± 0.248391
+--------------------------------------------------------
+Info in <TCanvas::SaveAs>: ROOT file CrossSections.root has been created
+Info in <TCanvas::SaveAs>: ROOT file RatioGraph.root has been created
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ exit
+[?2004lexit
+
+Script done on 2024-11-24 15:22:45-06:00 [COMMAND_EXIT_CODE="0"]

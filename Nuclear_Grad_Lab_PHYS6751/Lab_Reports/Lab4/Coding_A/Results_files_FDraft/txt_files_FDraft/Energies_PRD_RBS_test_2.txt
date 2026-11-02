@@ -1,0 +1,773 @@
+Script started on 2024-12-10 16:07:15-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .L Energg[D[Ky[0m[38;5;203m[4m[1m)[D[0m)c[D[D[0m[38;5;203m[4m[1m)[K[D[K[0m_calc.C 
+[0m[0mroot [1] Energy_calculation[0m[38;5;83m[1m()
+[0mBegin Energy Calculation Process
+
+
+Tag 20's: Information
+Theta in radians: 2.93215
+E_att (Energy attenuated): 0.0663158 MeV
+E_f (Energy after foil): 2.43368 MeV
+E_avg (Average energy): 2.46684 MeV
+K (Kinetic energy transformation factor): 0.92274
+E_sc (Scattered energy): 2.27625 MeV
+Uncertainty in K: 0.000133376
+Uncertainty in E_sc: 0.000329018 MeV
+
+Tag 40's: Information
+Theta in radians: 2.93215
+E_att (Energy attenuated): 0.0663158 MeV
+E_f (Energy after foil): 2.43368 MeV
+E_avg (Average energy): 2.46684 MeV
+K (Kinetic energy transformation factor): 0.92274
+E_sc (Scattered energy): 2.27625 MeV
+Uncertainty in K: 0.000133376
+Uncertainty in E_sc: 0.000329018 MeV
+
+Tag 1010's: Information
+Theta in radians: 2.93215
+E_att (Energy attenuated): 0.0574402 MeV
+E_f (Energy after foil): 3.44256 MeV
+E_avg (Average energy): 3.47128 MeV
+K (Kinetic energy transformation factor): 0.92274
+E_sc (Scattered energy): 3.20309 MeV
+Uncertainty in K: 0.000133376
+Uncertainty in E_sc: 0.000462986 MeV
+
+Tag 1020's: Information
+Theta in radians: 2.93215
+E_att (Energy attenuated): 0.0574402 MeV
+E_f (Energy after foil): 3.44256 MeV
+E_avg (Average energy): 3.47128 MeV
+K (Kinetic energy transformation factor): 0.92274
+E_sc (Scattered energy): 3.20309 MeV
+Uncertainty in K: 0.000133376
+Uncertainty in E_sc: 0.000462986 MeV
+
+Tag 1030's: Information
+Theta in radians: 2.93215
+E_att (Energy attenuated): 0.0513487 MeV
+E_f (Energy after foil): 4.44865 MeV
+E_avg (Average energy): 4.47433 MeV
+K (Kinetic energy transformation factor): 0.92274
+E_sc (Scattered energy): 4.12864 MeV
+Uncertainty in K: 0.000133376
+Uncertainty in E_sc: 0.000596769 MeV
+
+Tag 1040's: Information
+Theta in radians: 2.93215
+E_att (Energy attenuated): 0.0513487 MeV
+E_f (Energy after foil): 4.44865 MeV
+E_avg (Average energy): 4.47433 MeV
+K (Kinetic energy transformation factor): 0.92274
+E_sc (Scattered energy): 4.12864 MeV
+Uncertainty in K: 0.000133376
+Uncertainty in E_sc: 0.000596769 MeV
+
+Tag 1050's: Information
+Theta in radians: 2.93215
+E_att (Energy attenuated): 0.043122 MeV
+E_f (Energy after foil): 6.45688 MeV
+E_avg (Average energy): 6.47844 MeV
+K (Kinetic energy transformation factor): 0.92274
+E_sc (Scattered energy): 5.97791 MeV
+Uncertainty in K: 0.000133376
+Uncertainty in E_sc: 0.00086407 MeV
+
+Tag 1060's: Information
+Theta in radians: 2.93215
+E_att (Energy attenuated): 0.043122 MeV
+E_f (Energy after foil): 6.45688 MeV
+E_avg (Average energy): 6.47844 MeV
+K (Kinetic energy transformation factor): 0.92274
+E_sc (Scattered energy): 5.97791 MeV
+Uncertainty in K: 0.000133376
+Uncertainty in E_sc: 0.00086407 MeV
+
+End of Energy Calculation Process
+
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .L Rutherford_Energy_cal.C 
+[0m[0mroot [1] Run1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1571.43
+NDf                       =            6
+Edm                       =  9.75168e-09
+NCalls                    =           73
+p0                        =   0.00638301   +/-   1.32444e-06 
+p1                        =     0.103109   +/-   0.000724535 
+
+2x2 matrix is as follows
+
+     |      0    |      1    |
+-------------------------------
+   0 |  1.754e-12  -8.992e-10 
+   1 | -8.992e-10    5.25e-07 
+
+Slope (a): 0.00638301 ± 1.32444e-06
+Intercept (b): 0.103109 ± 0.000724535
+Covariance Cov(a, b): -8.99172e-10
+Channel 340.64: New Energy = 2.27742, Calibration Error = 0.000340451
+Channel 338.298: New Energy = 2.26247, Calibration Error = 0.000342534
+Channel 487.036: New Energy = 3.21187, Calibration Error = 0.000255312
+Channel 487.623: New Energy = 3.21561, Calibration Error = 0.00025521
+Channel 632.072: New Energy = 4.13763, Calibration Error = 0.000298458
+Channel 631.416: New Energy = 4.13345, Calibration Error = 0.000297998
+Channel 918.5: New Energy = 5.96591, Calibration Error = 0.000594177
+Channel 918.893: New Energy = 5.96842, Calibration Error = 0.000594648
+Channel 340.64: Residual = -0.00116861 ± 0.0258741
+Channel 338.298: Residual = 0.0137804 ± 0.0259143
+Channel 487.036: Residual = -0.0087764 ± 0.0268011
+Channel 487.623: Residual = -0.0125232 ± 0.0267992
+Channel 632.072: Residual = -0.00899328 ± 0.0299203
+Channel 631.416: Residual = -0.00480603 ± 0.0299127
+Channel 918.5: Residual = 0.0120026 ± 0.038187
+Channel 918.893: Residual = 0.00949412 ± 0.0381932
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ script FD_Enee[Krgy_Calibrations_Par.txt
+[?2004lScript started, output log file is 'FD_Energy_Calibrations_Par.txt'.
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Rutherford_Energy_cal.C 
+[0m[0mroot [1] .L Rutherford_Energy_cal.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      87.6438
+NDf                       =            6
+Edm                       =  3.95926e-08
+NCalls                    =           66
+p0                        =    0.0118092   +/-   4.87582e-06 
+p1                        =      0.11717   +/-   0.00134936  
+
+2x2 matrix is as follows
+
+     |      0    |      1    |
+-------------------------------
+   0 |  2.377e-11  -6.183e-09 
+   1 | -6.183e-09   1.821e-06 
+
+Slope (a): 0.0118092 ± 4.87582e-06
+Intercept (b): 0.11717 ± 0.00134936
+Covariance Cov(a, b): -6.18334e-09
+Channel 183.098: New Energy = 2.27941, Calibration Error = 0.000594523
+Channel 196.004: New Energy = 2.43182, Calibration Error = 0.000556929
+Channel 280.418: New Energy = 3.42868, Calibration Error = 0.000471537
+Channel 262.462: New Energy = 3.21663, Calibration Error = 0.00046115
+Channel 340.914: New Energy = 4.14309, Calibration Error = 0.000606481
+Channel 364.018: New Energy = 4.41593, Calibration Error = 0.000685051
+Channel 529.784: New Energy = 6.37349, Calibration Error = 0.00139344
+Channel 497.239: New Energy = 5.98916, Calibration Error = 0.0012448
+Channel 183.098: Residual = 0.00350192 ± 0.0355706
+Channel 196.004: Residual = -0.000537443 ± 0.043032
+Channel 280.418: Residual = -0.00743812 ± 0.0478913
+Channel 262.462: Residual = -0.00418236 ± 0.0374834
+Channel 340.914: Residual = -0.00237667 ± 0.0426974
+Channel 364.018: Residual = -0.00609611 ± 0.055078
+Channel 529.784: Residual = 0.0115723 ± 0.0692381
+Channel 497.239: Residual = 0.00623225 ± 0.0548298
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ ls
+[?2004lComp_Code.C                       F_Draft_GOLD_energyPar_Cal.txt  Rutherford_Energy_cal.C
+Energies_PRD_RBS_test.txt         Generalized_Peaks.C             Rutherfordexp_Ruther_theory.C
+Energy_calc.C                     [0m[01;34mOutput_Results[0m                  Silver_Copper_peakpar.C
+FD_Energy_Calibrations_Par.txt    Peak_Sources_Finding.C          [01;34mmisc_files[0m
+FD_Rutherford_Calibrations.root   [01;34mRaw_results[0m                     [01;34mtxt_files[0m
+F_D-Rutherford_Calibrations.root  [01;34mResults_files_FDraft[0m            [01;34mtxt_files_FDraft[0m
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] TBrowse[D[D[D[D[D[D[D[0m[38;5;12m[1mTBrowser[0m b
+[0m(TBrowser &) Name: Browser Title: ROOT Object Browser
+[0mroot [1] (TFile *) 0x558bf9d37f10
+(TFile *) 0x558bfad47400
+
+[0m[0mroot [1] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ ls
+[?2004lComp_Code.C                       F_Draft_GOLD_energyPar_Cal.txt  Rutherford_Energy_cal.C
+Energies_PRD_RBS_test.txt         Generalized_Peaks.C             Rutherfordexp_Ruther_theory.C
+Energy_calc.C                     [0m[01;34mOutput_Results[0m                  Silver_Copper_peakpar.C
+FD_Energy_Calibrations_Par.txt    Peak_Sources_Finding.C          [01;34mmisc_files[0m
+FD_Rutherford_Calibrations.root   [01;34mRaw_results[0m                     [01;34mtxt_files[0m
+F_D-Rutherford_Calibrations.root  [01;34mResults_files_FDraft[0m            [01;34mtxt_files_FDraft[0m
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[D[0m[38;5;12m[1mTBrowser[0m b[D[D[D[D[D[D[D[D[D[D.q[K[D[K[D[K.L Rutherford_Energy_cal.C 
+[0m[0mroot [1] Run1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      87.6438
+NDf                       =            6
+Edm                       =  3.95926e-08
+NCalls                    =           66
+p0                        =    0.0118092   +/-   4.87582e-06 
+p1                        =      0.11717   +/-   0.00134936  
+
+2x2 matrix is as follows
+
+     |      0    |      1    |
+-------------------------------
+   0 |  2.377e-11  -6.183e-09 
+   1 | -6.183e-09   1.821e-06 
+
+Slope (a): 0.0118092 ± 4.87582e-06
+Intercept (b): 0.11717 ± 0.00134936
+Covariance Cov(a, b): -6.18334e-09
+Channel 183.098: New Energy = 2.27941, Calibration Error = 0.000594523
+Channel 196.004: New Energy = 2.43182, Calibration Error = 0.000556929
+Channel 280.418: New Energy = 3.42868, Calibration Error = 0.000471537
+Channel 262.462: New Energy = 3.21663, Calibration Error = 0.00046115
+Channel 340.914: New Energy = 4.14309, Calibration Error = 0.000606481
+Channel 364.018: New Energy = 4.41593, Calibration Error = 0.000685051
+Channel 529.784: New Energy = 6.37349, Calibration Error = 0.00139344
+Channel 497.239: New Energy = 5.98916, Calibration Error = 0.0012448
+Channel 183.098: Residual = 0.00350192 ± 0.0355706
+Channel 196.004: Residual = -0.000537443 ± 0.043032
+Channel 280.418: Residual = -0.00743812 ± 0.0478913
+Channel 262.462: Residual = -0.00418236 ± 0.0374834
+Channel 340.914: Residual = -0.00237667 ± 0.0426974
+Channel 364.018: Residual = -0.00609611 ± 0.055078
+Channel 529.784: Residual = 0.0115723 ± 0.0692381
+Channel 497.239: Residual = 0.00623225 ± 0.0548298
+Error in <Fit>: function ZeroL has illegal number of parameters = 0
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Rutherford_Energy_cal.C 
+[0m[0mroot [1] .L Rutherford_Energy_cal.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      87.6438
+NDf                       =            6
+Edm                       =  3.95926e-08
+NCalls                    =           66
+p0                        =    0.0118092   +/-   4.87582e-06 
+p1                        =      0.11717   +/-   0.00134936  
+
+2x2 matrix is as follows
+
+     |      0    |      1    |
+-------------------------------
+   0 |  2.377e-11  -6.183e-09 
+   1 | -6.183e-09   1.821e-06 
+
+Slope (a): 0.0118092 ± 4.87582e-06
+Intercept (b): 0.11717 ± 0.00134936
+Covariance Cov(a, b): -6.18334e-09
+Channel 183.098: New Energy = 2.27941, Calibration Error = 0.000594523
+Channel 196.004: New Energy = 2.43182, Calibration Error = 0.000556929
+Channel 280.418: New Energy = 3.42868, Calibration Error = 0.000471537
+Channel 262.462: New Energy = 3.21663, Calibration Error = 0.00046115
+Channel 340.914: New Energy = 4.14309, Calibration Error = 0.000606481
+Channel 364.018: New Energy = 4.41593, Calibration Error = 0.000685051
+Channel 529.784: New Energy = 6.37349, Calibration Error = 0.00139344
+Channel 497.239: New Energy = 5.98916, Calibration Error = 0.0012448
+Channel 183.098: Residual = 0.00350192 ± 0.0355706
+Channel 196.004: Residual = -0.000537443 ± 0.043032
+Channel 280.418: Residual = -0.00743812 ± 0.0478913
+Channel 262.462: Residual = -0.00418236 ± 0.0374834
+Channel 340.914: Residual = -0.00237667 ± 0.0426974
+Channel 364.018: Residual = -0.00609611 ± 0.055078
+Channel 529.784: Residual = 0.0115723 ± 0.0692381
+Channel 497.239: Residual = 0.00623225 ± 0.0548298
+Error in <Fit>: function ZeroL has illegal number of parameters = 0
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Rutherford_Energy_cal.C 
+[0m[0mroot [1] .L Rutherford_Energy_cal.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      87.6438
+NDf                       =            6
+Edm                       =  3.95926e-08
+NCalls                    =           66
+p0                        =    0.0118092   +/-   4.87582e-06 
+p1                        =      0.11717   +/-   0.00134936  
+
+2x2 matrix is as follows
+
+     |      0    |      1    |
+-------------------------------
+   0 |  2.377e-11  -6.183e-09 
+   1 | -6.183e-09   1.821e-06 
+
+Slope (a): 0.0118092 ± 4.87582e-06
+Intercept (b): 0.11717 ± 0.00134936
+Covariance Cov(a, b): -6.18334e-09
+Channel 183.098: New Energy = 2.27941, Calibration Error = 0.000594523
+Channel 196.004: New Energy = 2.43182, Calibration Error = 0.000556929
+Channel 280.418: New Energy = 3.42868, Calibration Error = 0.000471537
+Channel 262.462: New Energy = 3.21663, Calibration Error = 0.00046115
+Channel 340.914: New Energy = 4.14309, Calibration Error = 0.000606481
+Channel 364.018: New Energy = 4.41593, Calibration Error = 0.000685051
+Channel 529.784: New Energy = 6.37349, Calibration Error = 0.00139344
+Channel 497.239: New Energy = 5.98916, Calibration Error = 0.0012448
+Channel 183.098: Residual = 0.00350192 ± 0.0355706
+Channel 196.004: Residual = -0.000537443 ± 0.043032
+Channel 280.418: Residual = -0.00743812 ± 0.0478913
+Channel 262.462: Residual = -0.00418236 ± 0.0374834
+Channel 340.914: Residual = -0.00237667 ± 0.0426974
+Channel 364.018: Residual = -0.00609611 ± 0.055078
+Channel 529.784: Residual = 0.0115723 ± 0.0692381
+Channel 497.239: Residual = 0.00623225 ± 0.0548298
+Warning in <Fit>: Fit data is empty 
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Rutherford_Energy_cal.C 
+[0m[0mroot [1] .L Rutherford_Energy_cal.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      87.6438
+NDf                       =            6
+Edm                       =  3.95926e-08
+NCalls                    =           66
+p0                        =    0.0118092   +/-   4.87582e-06 
+p1                        =      0.11717   +/-   0.00134936  
+
+2x2 matrix is as follows
+
+     |      0    |      1    |
+-------------------------------
+   0 |  2.377e-11  -6.183e-09 
+   1 | -6.183e-09   1.821e-06 
+
+Slope (a): 0.0118092 ± 4.87582e-06
+Intercept (b): 0.11717 ± 0.00134936
+Covariance Cov(a, b): -6.18334e-09
+Channel 183.098: New Energy = 2.27941, Calibration Error = 0.000594523
+Channel 196.004: New Energy = 2.43182, Calibration Error = 0.000556929
+Channel 280.418: New Energy = 3.42868, Calibration Error = 0.000471537
+Channel 262.462: New Energy = 3.21663, Calibration Error = 0.00046115
+Channel 340.914: New Energy = 4.14309, Calibration Error = 0.000606481
+Channel 364.018: New Energy = 4.41593, Calibration Error = 0.000685051
+Channel 529.784: New Energy = 6.37349, Calibration Error = 0.00139344
+Channel 497.239: New Energy = 5.98916, Calibration Error = 0.0012448
+Channel 183.098: Residual = 0.00350192 ± 0.0355706
+Channel 196.004: Residual = -0.000537443 ± 0.043032
+Channel 280.418: Residual = -0.00743812 ± 0.0478913
+Channel 262.462: Residual = -0.00418236 ± 0.0374834
+Channel 340.914: Residual = -0.00237667 ± 0.0426974
+Channel 364.018: Residual = -0.00609611 ± 0.055078
+Channel 529.784: Residual = 0.0115723 ± 0.0692381
+Channel 497.239: Residual = 0.00623225 ± 0.0548298
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Rutherford_Energy_cal.C 
+[0m[0mroot [1] .L Rutherford_Energy_cal.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      87.6438
+NDf                       =            6
+Edm                       =  3.95926e-08
+NCalls                    =           66
+p0                        =    0.0118092   +/-   4.87582e-06 
+p1                        =      0.11717   +/-   0.00134936  
+
+2x2 matrix is as follows
+
+     |      0    |      1    |
+-------------------------------
+   0 |  2.377e-11  -6.183e-09 
+   1 | -6.183e-09   1.821e-06 
+
+Slope (a): 0.0118092 ± 4.87582e-06
+Intercept (b): 0.11717 ± 0.00134936
+Covariance Cov(a, b): -6.18334e-09
+Channel 183.098: New Energy = 2.27941, Calibration Error = 0.000594523
+Channel 196.004: New Energy = 2.43182, Calibration Error = 0.000556929
+Channel 280.418: New Energy = 3.42868, Calibration Error = 0.000471537
+Channel 262.462: New Energy = 3.21663, Calibration Error = 0.00046115
+Channel 340.914: New Energy = 4.14309, Calibration Error = 0.000606481
+Channel 364.018: New Energy = 4.41593, Calibration Error = 0.000685051
+Channel 529.784: New Energy = 6.37349, Calibration Error = 0.00139344
+Channel 497.239: New Energy = 5.98916, Calibration Error = 0.0012448
+Channel 183.098: Residual = 0.00350192 ± 0.0355706
+Channel 196.004: Residual = -0.000537443 ± 0.043032
+Channel 280.418: Residual = -0.00743812 ± 0.0478913
+Channel 262.462: Residual = -0.00418236 ± 0.0374834
+Channel 340.914: Residual = -0.00237667 ± 0.0426974
+Channel 364.018: Residual = -0.00609611 ± 0.055078
+Channel 529.784: Residual = 0.0115723 ± 0.0692381
+Channel 497.239: Residual = 0.00623225 ± 0.0548298
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Rutherford_Energy_cal.C 
+[0m[0mroot [1] .L Rutherford_Energy_cal.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      87.6438
+NDf                       =            6
+Edm                       =  3.95926e-08
+NCalls                    =           66
+p0                        =    0.0118092   +/-   4.87582e-06 
+p1                        =      0.11717   +/-   0.00134936  
+
+2x2 matrix is as follows
+
+     |      0    |      1    |
+-------------------------------
+   0 |  2.377e-11  -6.183e-09 
+   1 | -6.183e-09   1.821e-06 
+
+Slope (a): 0.0118092 ± 4.87582e-06
+Intercept (b): 0.11717 ± 0.00134936
+Covariance Cov(a, b): -6.18334e-09
+Channel 183.098: New Energy = 2.27941, Calibration Error = 0.000594523
+Channel 196.004: New Energy = 2.43182, Calibration Error = 0.000556929
+Channel 280.418: New Energy = 3.42868, Calibration Error = 0.000471537
+Channel 262.462: New Energy = 3.21663, Calibration Error = 0.00046115
+Channel 340.914: New Energy = 4.14309, Calibration Error = 0.000606481
+Channel 364.018: New Energy = 4.41593, Calibration Error = 0.000685051
+Channel 529.784: New Energy = 6.37349, Calibration Error = 0.00139344
+Channel 497.239: New Energy = 5.98916, Calibration Error = 0.0012448
+Channel 183.098: Residual = 0.00350192 ± 0.0355706
+Channel 196.004: Residual = -0.000537443 ± 0.043032
+Channel 280.418: Residual = -0.00743812 ± 0.0478913
+Channel 262.462: Residual = -0.00418236 ± 0.0374834
+Channel 340.914: Residual = -0.00237667 ± 0.0426974
+Channel 364.018: Residual = -0.00609611 ± 0.055078
+Channel 529.784: Residual = 0.0115723 ± 0.0692381
+Channel 497.239: Residual = 0.00623225 ± 0.0548298
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Rutherford_Energy_cal.C 
+[0m[0mroot [1] .L Rutherford_Energy_cal.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      87.6438
+NDf                       =            6
+Edm                       =  3.95926e-08
+NCalls                    =           66
+p0                        =    0.0118092   +/-   4.87582e-06 
+p1                        =      0.11717   +/-   0.00134936  
+
+2x2 matrix is as follows
+
+     |      0    |      1    |
+-------------------------------
+   0 |  2.377e-11  -6.183e-09 
+   1 | -6.183e-09   1.821e-06 
+
+Slope (a): 0.0118092 ± 4.87582e-06
+Intercept (b): 0.11717 ± 0.00134936
+Covariance Cov(a, b): -6.18334e-09
+Channel 183.098: New Energy = 2.27941, Calibration Error = 0.000594523
+Channel 196.004: New Energy = 2.43182, Calibration Error = 0.000556929
+Channel 280.418: New Energy = 3.42868, Calibration Error = 0.000471537
+Channel 262.462: New Energy = 3.21663, Calibration Error = 0.00046115
+Channel 340.914: New Energy = 4.14309, Calibration Error = 0.000606481
+Channel 364.018: New Energy = 4.41593, Calibration Error = 0.000685051
+Channel 529.784: New Energy = 6.37349, Calibration Error = 0.00139344
+Channel 497.239: New Energy = 5.98916, Calibration Error = 0.0012448
+Channel 183.098: Residual = 0.00350192 ± 0.0355706
+Channel 196.004: Residual = -0.000537443 ± 0.043032
+Channel 280.418: Residual = -0.00743812 ± 0.0478913
+Channel 262.462: Residual = -0.00418236 ± 0.0374834
+Channel 340.914: Residual = -0.00237667 ± 0.0426974
+Channel 364.018: Residual = -0.00609611 ± 0.055078
+Channel 529.784: Residual = 0.0115723 ± 0.0692381
+Channel 497.239: Residual = 0.00623225 ± 0.0548298
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Rutherford_Energy_cal.C 
+[0m[0mroot [1] .L Rutherford_Energy_cal.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      87.6438
+NDf                       =            6
+Edm                       =  3.95926e-08
+NCalls                    =           66
+p0                        =    0.0118092   +/-   4.87582e-06 
+p1                        =      0.11717   +/-   0.00134936  
+
+2x2 matrix is as follows
+
+     |      0    |      1    |
+-------------------------------
+   0 |  2.377e-11  -6.183e-09 
+   1 | -6.183e-09   1.821e-06 
+
+Slope (a): 0.0118092 ± 4.87582e-06
+Intercept (b): 0.11717 ± 0.00134936
+Covariance Cov(a, b): -6.18334e-09
+Channel 183.098: New Energy = 2.27941, Calibration Error = 0.000594523
+Channel 196.004: New Energy = 2.43182, Calibration Error = 0.000556929
+Channel 280.418: New Energy = 3.42868, Calibration Error = 0.000471537
+Channel 262.462: New Energy = 3.21663, Calibration Error = 0.00046115
+Channel 340.914: New Energy = 4.14309, Calibration Error = 0.000606481
+Channel 364.018: New Energy = 4.41593, Calibration Error = 0.000685051
+Channel 529.784: New Energy = 6.37349, Calibration Error = 0.00139344
+Channel 497.239: New Energy = 5.98916, Calibration Error = 0.0012448
+Channel 183.098: Residual = 0.00350192 ± 0.0355706
+Channel 196.004: Residual = -0.000537443 ± 0.043032
+Channel 280.418: Residual = -0.00743812 ± 0.0478913
+Channel 262.462: Residual = -0.00418236 ± 0.0374834
+Channel 340.914: Residual = -0.00237667 ± 0.0426974
+Channel 364.018: Residual = -0.00609611 ± 0.055078
+Channel 529.784: Residual = 0.0115723 ± 0.0692381
+Channel 497.239: Residual = 0.00623225 ± 0.0548298
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ ls
+[?2004lComp_Code.C                       F_Draft_GOLD_energyPar_Cal.txt  Rutherford_Energy_cal.C
+Energies_PRD_RBS_test.txt         Generalized_Peaks.C             Rutherfordexp_Ruther_theory.C
+Energy_calc.C                     [0m[01;34mOutput_Results[0m                  Silver_Copper_peakpar.C
+FD_Energy_Calibrations_Par.txt    Peak_Sources_Finding.C          [01;34mmisc_files[0m
+FD_Rutherford_Calibrations.root   [01;34mRaw_results[0m                     [01;34mtxt_files[0m
+F_D-Rutherford_Calibrations.root  [01;34mResults_files_FDraft[0m            [01;34mtxt_files_FDraft[0m
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Rutherford_Energy_cal.C [D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K.sil
+tab completion not implemented for this context
+[1Groot [0] [K.silver[D[K[D[K[D[K[D[K[D[K[D[K[D[K.L Silver_Copper_peakpar.C 
+[0m[0mroot [1] Main_function[0m[38;5;83m[1m()
+[0mTheta in radians: 2.70526
+E_att (Energy attenuated): 0.043122 MeV
+E_f (Energy after foil): 6.45688 MeV
+E_avg (Average energy): 6.47844 MeV
+K (Kinetic energy transformation factor): 0.925438
+E_sc (Scattered energy): 5.99539 MeV
+The channel number is
+Gold peak energy (E_sc): 5.99539 MeV
+Gold channel number: 497.766
+----------------------------------------
+E_att (Energy attenuated): 0.00414134 MeV
+E_f (Energy after foil): 6.49586 MeV
+E_avg (Average energy): 6.49793 MeV
+K (Kinetic energy transformation factor): 0.86802
+E_sc (Scattered energy): 5.64033 MeV
+The channel number is
+Silver peak energy (E_sc): 5.64033 MeV
+Silver channel number: 467.7
+----------------------------------------
+E_att (Energy attenuated): 0.00312264 MeV
+E_f (Energy after foil): 6.49688 MeV
+E_avg (Average energy): 6.49844 MeV
+K (Kinetic energy transformation factor): 0.786251
+E_sc (Scattered energy): 5.10941 MeV
+The channel number is
+Copper peak energy (E_sc): 5.10941 MeV
+Copper channel number: 422.741
+----------------------------------------
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ script FD_silver_G_copper_CN.txt
+[?2004lScript started, output log file is 'FD_silver_G_copper_CN.txt'.
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DMain_function[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[0m.L Silver_Copper_peakpar.C 
+[0m[0mroot [1] .L Silver_Copper_peakpar.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DMain_function[0m[38;5;83m[1m()
+[0mTheta in radians: 2.70526
+E_att (Energy attenuated): 0.043122 MeV
+E_f (Energy after foil): 6.45688 MeV
+E_avg (Average energy): 6.47844 MeV
+K (Kinetic energy transformation factor): 0.925438
+E_sc (Scattered energy): 5.99539 MeV
+The channel number is
+Gold peak energy (E_sc): 5.99539 MeV
+Gold channel number: 497.766
+----------------------------------------
+E_att (Energy attenuated): 0.00414134 MeV
+E_f (Energy after foil): 6.49586 MeV
+E_avg (Average energy): 6.49793 MeV
+K (Kinetic energy transformation factor): 0.86802
+E_sc (Scattered energy): 5.64033 MeV
+The channel number is
+Silver peak energy (E_sc): 5.64033 MeV
+Silver channel number: 467.7
+----------------------------------------
+E_att (Energy attenuated): 0.00312264 MeV
+E_f (Energy after foil): 6.49688 MeV
+E_avg (Average energy): 6.49844 MeV
+K (Kinetic energy transformation factor): 0.786251
+E_sc (Scattered energy): 5.10941 MeV
+The channel number is
+Copper peak energy (E_sc): 5.10941 MeV
+Copper channel number: 422.741
+----------------------------------------
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ ls
+[?2004lComp_Code.C                       F_Draft_GOLD_energyPar_Cal.txt  Rutherfordexp_Ruther_theory.C
+Energies_PRD_RBS_test.txt         Generalized_Peaks.C             Silver_Copper_peakpar.C
+Energy_calc.C                     [0m[01;34mOutput_Results[0m                  [01;34mmisc_files[0m
+FD_Energy_Calibrations_Par.txt    Peak_Sources_Finding.C          [01;34mtxt_files[0m
+FD_Rutherford_Calibrations.root   [01;34mRaw_results[0m                     [01;34mtxt_files_FDraft[0m
+FD_silver_G_copper_CN.txt         [01;34mResults_files_FDraft[0m
+F_D-Rutherford_Calibrations.root  Rutherford_Energy_cal.C
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DMain_function[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[0m.L Silver_Copper_peakpar.C [D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[K[D[KTBrowse[D[D[D[D[D[D[D[0m[38;5;12m[1mTBrowser[0m b
+[0m(TBrowser &) Name: Browser Title: ROOT Object Browser
+[0mroot [1] (TFile *) 0x55b432e1f150
+(TFile *) 0x55b433e10020
+(TFile *) 0x55b433cb6d50
+
+[0m[0mroot [1] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ ls
+[?2004lComp_Code.C                       F_Draft_GOLD_energyPar_Cal.txt  Rutherfordexp_Ruther_theory.C
+Energies_PRD_RBS_test.txt         Generalized_Peaks.C             Silver_Copper_peakpar.C
+Energy_calc.C                     [0m[01;34mOutput_Results[0m                  [01;34mmisc_files[0m
+FD_Energy_Calibrations_Par.txt    Peak_Sources_Finding.C          [01;34mtxt_files[0m
+FD_Rutherford_Calibrations.root   [01;34mRaw_results[0m                     [01;34mtxt_files_FDraft[0m
+FD_silver_G_copper_CN.txt         [01;34mResults_files_FDraft[0m
+F_D-Rutherford_Calibrations.root  Rutherford_Energy_cal.C
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ mv *.txt /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/txt_files_FDraft/
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ mv *.txt /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/txt_files_FDraft/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/txt_file[1Ps_FDraft/[A]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ [C[C[C[C[C[C[C /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/txt_files[1P_FDraft/[A]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ [C[C[C[C[C[C /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/txt_files_[1PFDraft/[A]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ [C[C[C[C[C /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/txt_files_F[1PDraft/[A]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ [C[C[C[CF /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/txt_files_FDraft/[A]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ [C[C[C[C[CD /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/txt_files_FDraft/[A]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ [C[C[C[C[C[C* /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/txt_files_FDraft/[A]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[KResults_files_FDraft/
+[?2004lmv: cannot move 'Results_files_FDraft' to a subdirectory of itself, '/home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/Results_files_FDraft/Results_files_FDraft'
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ mv *FD* /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/Results_files_FDraft/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_* /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/Results_files_FDraft/[A]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ [C[C[C[C[C[C[C
+
+[?2004lmv: cannot stat '*FD_*': No such file or directory
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ ls
+[?2004lComp_Code.C                       [0m[01;34mOutput_Results[0m          Rutherford_Energy_cal.C        [01;34mtxt_files[0m
+Energy_calc.C                     Peak_Sources_Finding.C  Rutherfordexp_Ruther_theory.C
+F_D-Rutherford_Calibrations.root  [01;34mRaw_results[0m             Silver_Copper_peakpar.C
+Generalized_Peaks.C               [01;34mResults_files_FDraft[0m    [01;34mmisc_files[0m
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ lsmv *FD_* /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/Results_files_FDraft/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C* /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/Results_[1Pfiles_FDraft/[A]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ [C[C[C[C[C[C* /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/Results_f[1Piles_FDraft/[A]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ [C[C[C[C[C_* /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/Results_files_FDraft/[A]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ [C[C[C[C[C[CD* /home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/Results_files_FDraft/[A]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ [C[C[C[C[C[C[C
+
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ ls
+[?2004lComp_Code.C          [0m[01;34mOutput_Results[0m          [01;34mResults_files_FDraft[0m           Silver_Copper_peakpar.C
+Energy_calc.C        Peak_Sources_Finding.C  Rutherford_Energy_cal.C        [01;34mmisc_files[0m
+Generalized_Peaks.C  [01;34mRaw_results[0m             Rutherfordexp_Ruther_theory.C  [01;34mtxt_files[0m
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ cd Results_files_FDraft/
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A/Results_files_FDraft[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A/Results_files_FDraft[00m$ ls
+[?2004lFD_Rutherford_Calibrations.root  F_D-Rutherford_Calibrations.root  [0m[01;34mtxt_files_FDraft[0m
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A/Results_files_FDraft[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A/Results_files_FDraft[00m$ tBROw[K[K[K[K[Kroot
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16         

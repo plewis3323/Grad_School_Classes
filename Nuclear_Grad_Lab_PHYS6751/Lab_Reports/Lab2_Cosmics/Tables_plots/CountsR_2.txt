@@ -1,0 +1,111 @@
+Script started on 2024-10-16 23:52:37-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab2:Cosmics/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab2:Cosmics/codes[00m$ root
+[?2004l
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[D,q[D[DCountR[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[0m.L Count_R.C 
+[0m[0mroot [1] CountR(0[D[K[D[0m[38;5;83m[1m()
+[0mThe Count Uncertainties: 174.451
+The Count Rates: 1014.43
+The Count Rate errors: 5.81502
+The Counts are: 30433
+The Count Uncertainties: 123.883
+The Count Rates: 511.567
+The Count Rate errors: 4.12943
+The Counts are: 15347
+The Count Uncertainties: 131.765
+The Count Rates: 578.733
+The Count Rate errors: 4.39216
+The Counts are: 17362
+The Count Uncertainties: 133.327
+The Count Rates: 592.533
+The Count Rate errors: 4.44422
+The Counts are: 17776
+The Count Uncertainties: 52.9717
+The Count Rates: 93.5333
+The Count Rate errors: 1.76572
+The Counts are: 2806
+The Count Uncertainties: 54.074
+The Count Rates: 97.4667
+The Count Rate errors: 1.80247
+The Counts are: 2924
+The Count Uncertainties: 56.8507
+The Count Rates: 107.733
+The Count Rate errors: 1.89502
+The Counts are: 3232
+The Count Uncertainties: 56.6304
+The Count Rates: 106.9
+The Count Rate errors: 1.88768
+The Counts are: 3207
+------------------------------------------------------------------------------(Regular to 2-fold)
+The Count Uncertainties: 12.6491
+The Count Rates: 5.33333
+The Count Rate errors: 0.421637
+The Counts are: 160
+The Count Uncertainties: 12.6095
+The Count Rates: 5.3
+The Count Rate errors: 0.420317
+The Counts are: 159
+The Count Uncertainties: 11.9164
+The Count Rates: 4.73333
+The Count Rate errors: 0.397213
+The Counts are: 142
+The Count Uncertainties: 12.3693
+The Count Rates: 5.1
+The Count Rate errors: 0.412311
+The Counts are: 153
+----------------------------------------------------------------------------------------(4-fold values)
+The Count Uncertainties: 10.2956
+The Count Rates: 3.53333
+The Count Rate errors: 0.343188
+The Counts are: 106
+The Count Uncertainties: 11.619
+The Count Rates: 4.5
+The Count Rate errors: 0.387298
+The Counts are: 135
+The Count Uncertainties: 10.7238
+The Count Rates: 3.83333
+The Count Rate errors: 0.35746
+The Counts are: 115
+The Count Uncertainties: 9.32738
+The Count Rates: 2.9
+The Count Rate errors: 0.310913
+The Counts are: 87
+The Count Uncertainties: 7.68115
+The Count Rates: 1.96667
+The Count Rate errors: 0.256038
+The Counts are: 59
+The Count Uncertainties: 7.28011
+The Count Rates: 1.76667
+The Count Rate errors: 0.24267
+The Counts are: 53
+The Count Uncertainties: 5.74456
+The Count Rates: 1.1
+The Count Rate errors: 0.191485
+The Counts are: 33
+The Count Uncertainties: 4.12311
+The Count Rates: 0.566667
+The Count Rate errors: 0.137437
+The Counts are: 17
+The Count Uncertainties: 3.4641
+The Count Rates: 0.4
+The Count Rate errors: 0.11547
+The Counts are: 12
+The Count Uncertainties: 3.31662
+The Count Rates: 0.366667
+The Count Rate errors: 0.110554
+The Counts are: 11
+-------------------------------------------------------------(Ang Table)
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab2:Cosmics/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab2:Cosmics/codes[00m$ exit
+[?2004l
+exit
+
+Script done on 2024-10-16 23:54:16-05:00 [COMMAND_EXIT_CODE="0"]

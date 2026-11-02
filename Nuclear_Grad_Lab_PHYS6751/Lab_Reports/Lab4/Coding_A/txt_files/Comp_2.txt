@@ -1,0 +1,32 @@
+Script started on 2024-11-21 17:25:37-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="142" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[Dmain_alg[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[D[D[0m.L Comp_Code.C 
+[0m[0mroot [1] .L Comp_Code.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[Dmain_alg[0m[38;5;83m[1m()
+[0mCross Section: 842.249 ± 13.0454 mb/sr
+Cross Section: 297.591 ± 4.61743 mb/sr
+Cross Section: 112.763 ± 1.75793 mb/sr
+Partial Ratio: 0.138656 ± 0.0100814
+Partial Ratio: 0.122667 ± 0.0147068
+Partial Ratio: 7.21211 ± 0.52438
+Partial Ratio: 0.884688 ± 0.121082
+Composition: 0.792819 ± 0.0112075
+Composition: 0.109929 ± 0.00650352
+Gold Composition: 79.2819 ± 1.12075%
+Silver Composition: 10.9929 ± 0.650352%
+Copper Composition: 9.72527 ± 1.29578%
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ exit
+[?2004l
+exit
+
+Script done on 2024-11-21 17:25:52-06:00 [COMMAND_EXIT_CODE="0"]

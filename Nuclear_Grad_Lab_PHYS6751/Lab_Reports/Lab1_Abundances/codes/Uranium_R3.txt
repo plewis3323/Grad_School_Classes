@@ -1,0 +1,350 @@
+Script started on 2024-10-04 17:38:23-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .L Isotope_R1_day3.C
+[0m[0mroot [1] Run1([D[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      15.8989
+NDf                       =           13
+Edm                       =  3.85535e-06
+NCalls                    =          172
+Constant                  =       168.41   +/-   4.49259     
+Mean                      =      869.722   +/-   3.81863     
+Sigma                     =      23.3777   +/-   12.4687      	 (limited)
+U-235 Peak 2 total counts (N_t2): 2466.58
+U-235 Peak 2 background counts (N_b2): 2616
+U-235 Peak 2 signal counts (N_s2): -149.416
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      23.1737
+NDf                       =            9
+Edm                       =  3.76882e-08
+NCalls                    =          155
+Constant                  =       145.99   +/-   5.32289     
+Mean                      =      974.742   +/-   1.74742     
+Sigma                     =      15.6213   +/-   8.53236      	 (limited)
+U-235 Peak 3 total counts (N_t3): 1573.14
+U-235 Peak 3 background counts (N_b3): 1818
+U-235 Peak 3 signal counts (N_s3): -244.861
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      20.5911
+NDf                       =           23
+Edm                       =  5.44763e-06
+NCalls                    =          126
+Constant                  =      143.988   +/-   3.58523     
+Mean                      =       1093.7   +/-   1.74102     
+Sigma                     =      26.9546   +/-   6.7139       	 (limited)
+Mean = 1093.7
+N_t = 3471.52
+N_b = 3541
+N_s = -69.4838
+std error = -nan
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      18.9588
+NDf                       =           13
+Edm                       =   7.6148e-08
+NCalls                    =          146
+Constant                  =      73.3988   +/-   3.20624     
+Mean                      =      1468.16   +/-   2.12134     
+Sigma                     =      17.4828   +/-   8.23926      	 (limited)
+U-235 Peak 5 total counts (N_t5): 1067.4
+U-235 Peak 5 background counts (N_b5): 1304
+U-235 Peak 5 signal counts (N_s5): -236.596
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      28.8805
+NDf                       =           25
+Edm                       =  7.09266e-07
+NCalls                    =          452
+Constant                  =      24.7631   +/-   2.68747     
+Mean                      =      3991.44   +/-   57.0209     
+Sigma                     =      80.4885   +/-   60.9282      	 (limited)
+U-238 Peak 6 total counts (N_t6): 649.296
+U-238 Peak 6 background counts (N_b6): 693.5
+U-238 Peak 6 signal counts (N_s6): -44.2037
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      23.2051
+NDf                       =           23
+Edm                       =  8.30323e-06
+NCalls                    =          143
+Constant                  =      20.5387   +/-   1.31235     
+Mean                      =         4196   +/-   7.04316     
+Sigma                     =      32.6913   +/-   27.1325      	 (limited)
+U-238 Peak 7 total counts (N_t7): 500.721
+U-238 Peak 7 background counts (N_b7): 1626
+U-238 Peak 7 signal counts (N_s7): -1125.28
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      113.229
+NDf                       =           58
+Edm                       =  2.54825e-06
+NCalls                    =          395
+Constant                  =      17.9118   +/-   8.28167     
+Mean                      =       5505.3   +/-   77.3618     
+Sigma                     =      180.186   +/-   178.29       	 (limited)
+U-235 Peak 8 total counts (N_t8): 597.758
+U-235 Peak 8 background counts (N_b8): 649
+U-235 Peak 8 signal counts (N_s8): -51.2421
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      61.8901
+NDf                       =           78
+Edm                       =   5.7727e-08
+NCalls                    =          137
+Constant                  =      24.8539   +/-   0.758855    
+Mean                      =      4083.38   +/-   9.774       
+Sigma                     =        72.67   +/-   18.4909      	 (limited)
+U-238 Peak 9 total counts (N_t9): 1848.16
+U-238 Peak 9 background counts (N_b9): 2784
+U-238 Peak 9 signal counts (N_s9): -935.84
+U235 eff: 0.625868U238 eff 0.0664421
+U235 count: -111.02U238 count: -771.229
+The branching ratios 235 and 238: 57.2 +/-(9) , 0.842 +/- (8) 
+Total U-235 decay counts (N_sum235): -1.94091
+Total U-238 decay counts (N_sum238): -915.949
+Decay constants: lambda235 = 9.85452e-10, lambda238 = 1.55101e-10
+Number of atoms: N_atoms_235 = -1.96956e+09, N_atoms_238 = -5.90549e+12
+The isotopic ratio (U-235 / U-238) =  0.000333513
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ ls
+[?2004lBa_133.xy              Efficiencies_2nd_run.root    Eu_day2.xy       Isotope.C          UR_day2.xy    Ur_day3.xy
+Calibrations.C         Efficiencies_3rd_run.root    Eu_day3.xy       Isotope_R1.C       UR_day3.xy    Uranium.xy
+Cobalt.xy              Efficiencies_data_1.C        Europium.C       Isotope_R1_day2.C  Ur_Run1.root  Uranium_R1.txt
+Eff_Run1_results.text  Efficiencies_data_2.C        Europium.xy      Isotope_R1_day3.C  Ur_Run2.root  Uranium_R2.txt
+Eff_Run2_results.text  Efficiencies_data_3.C        Europium_day2.C  Lab1_tables.ipynb  Ur_Run3.root  Uranium_R3.txt
+Eff_Run3_results.text  Efficiencies_first_run.root  Europium_day3.C  Sources.C          Ur_day2.xy
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Isotope_R1_day3.C
+[0m[0mroot [1] .L Isotope_R1_day3.C[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      629.435
+NDf                       =           13
+Edm                       =   8.0801e-06
+NCalls                    =           72
+Constant                  =      1991.13   +/-   21.2611     
+Mean                      =      871.893   +/-   0.0331803   
+Sigma                     =      4.00133   +/-   0.040771     	 (limited)
+U-235 Peak 2 total counts (N_t2): 18695.7
+U-235 Peak 2 background counts (N_b2): 9117.5
+U-235 Peak 2 signal counts (N_s2): 9578.18
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      57.6048
+NDf                       =            9
+Edm                       =  2.03501e-07
+NCalls                    =           73
+Constant                  =      1397.47   +/-   18.1064     
+Mean                      =      974.448   +/-   0.0475017   
+Sigma                     =      3.91626   +/-   0.0634988    	 (limited)
+U-235 Peak 3 total counts (N_t3): 11520.3
+U-235 Peak 3 background counts (N_b3): 6376
+U-235 Peak 3 signal counts (N_s3): 5144.26
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      4904.87
+NDf                       =           23
+Edm                       =  6.33716e-11
+NCalls                    =           87
+Constant                  =      11594.4   +/-   55.8877     
+Mean                      =      1091.22   +/-   0.00993378  
+Sigma                     =      2.81491   +/-   0.00934056   	 (limited)
+Mean = 1091.22
+N_t = 81806.5
+N_b = 11626.5
+N_s = 70180
+std error = 0.0106257
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      81.1795
+NDf                       =           13
+Edm                       =   5.7102e-06
+NCalls                    =           81
+Constant                  =      457.646   +/-   9.09239     
+Mean                      =      1468.19   +/-   0.10715     
+Sigma                     =      5.60638   +/-   0.158768     	 (limited)
+U-235 Peak 5 total counts (N_t5): 5245.95
+U-235 Peak 5 background counts (N_b5): 4123
+U-235 Peak 5 signal counts (N_s5): 1122.95
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      126.864
+NDf                       =           25
+Edm                       =  1.01731e-07
+NCalls                    =           84
+Constant                  =      113.694   +/-   3.811       
+Mean                      =      3973.75   +/-   0.21379     
+Sigma                     =      7.84217   +/-   0.287888     	 (limited)
+U-238 Peak 6 total counts (N_t6): 2044.23
+U-238 Peak 6 background counts (N_b6): 1056
+U-238 Peak 6 signal counts (N_s6): 988.229
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      72.1539
+NDf                       =           23
+Edm                       =  1.85948e-05
+NCalls                    =           75
+Constant                  =      76.8482   +/-   3.14253     
+Mean                      =      4198.74   +/-   0.308466    
+Sigma                     =      8.59834   +/-   0.484484     	 (limited)
+U-238 Peak 7 total counts (N_t7): 1407.54
+U-238 Peak 7 background counts (N_b7): 975.5
+U-238 Peak 7 signal counts (N_s7): 432.044
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      348.342
+NDf                       =           58
+Edm                       =  3.10351e-06
+NCalls                    =           77
+Constant                  =      656.715   +/-   9.76115     
+Mean                      =      5308.19   +/-   0.0543745   
+Sigma                     =      4.61484   +/-   0.0436013    	 (limited)
+U-235 Peak 8 total counts (N_t8): 7596.66
+U-235 Peak 8 background counts (N_b8): 460.5
+U-235 Peak 8 signal counts (N_s8): 7136.16
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      2135.34
+NDf                       =           78
+Edm                       =  4.32612e-06
+NCalls                    =          109
+Constant                  =      360.495   +/-   8.71226     
+Mean                      =      4096.03   +/-   0.0776252   
+Sigma                     =       5.1456   +/-   0.098771     	 (limited)
+U-238 Peak 9 total counts (N_t9): 4649.71
+U-238 Peak 9 background counts (N_b9): 2373.5
+U-238 Peak 9 signal counts (N_s9): 2276.21
+U235 eff: 0.625868U238 eff 0.0664421
+U235 count: 112132U238 count: 107404
+The branching ratios 235 and 238: 57.2 +/-(9) , 0.842 +/- (8) 
+Total U-235 decay counts (N_sum235): 1960.36
+Total U-238 decay counts (N_sum238): 127558
+Decay constants: lambda235 = 9.85452e-10, lambda238 = 1.55101e-10
+Number of atoms: N_atoms_235 = 1.9893e+12, N_atoms_238 = 8.22421e+14
+The isotopic ratio (U-235 / U-238) =  0.00241883
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ ls
+[?2004lBa_133.xy              Efficiencies_2nd_run.root    Eu_day2.xy       Isotope.C          UR_day2.xy    Ur_day3.xy
+Calibrations.C         Efficiencies_3rd_run.root    Eu_day3.xy       Isotope_R1.C       UR_day3.xy    Uranium.xy
+Cobalt.xy              Efficiencies_data_1.C        Europium.C       Isotope_R1_day2.C  Ur_Run1.root  Uranium_R1.txt
+Eff_Run1_results.text  Efficiencies_data_2.C        Europium.xy      Isotope_R1_day3.C  Ur_Run2.root  Uranium_R2.txt
+Eff_Run2_results.text  Efficiencies_data_3.C        Europium_day2.C  Lab1_tables.ipynb  Ur_Run3.root  Uranium_R3.txt
+Eff_Run3_results.text  Efficiencies_first_run.root  Europium_day3.C  Sources.C          Ur_day2.xy
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ mv Efficiencies_2nd_run.root Efficiencies_3rd_run.root Efficiencies_first_run.root Ur_Run1.root Ur_Run2.root Ur_Run3.root /home/plewis/G`[Kradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ cd ..
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances[00m$ ls
+[?2004l[0m[01;34mTables_plots_Results[0m  [01;34mcodes[0m  [01;34mdatfiles[0m
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances[00m$ cd Tables_plots_Results/
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[00m$ ls
+[?2004lEfficiencies_2nd_run.root  Efficiencies_first_run.root  [0m[01;34mRun2_results[0m  Ur_Run1.root  Ur_Run3.root
+Efficiencies_3rd_run.root  [01;34mRun1_results[0m                 [01;34mRun3_results[0m  Ur_Run2.root
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[00m$ U[Kmv Ue[Kr_Run1.root Efficiencies_first_run.root /home/plewis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run1_results/
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[00m$ mv Ur_Run1.root Efficiencies_first_run.root /home/plewis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run1_results/[1P_results/2_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_run.root /home/p[1Plewis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_run.root /home/pl[1Pewis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_run.root /home/ple[1Pwis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_run.root /home/plew[1Pis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_run.root /home/plewi[1Ps/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2_run.root /home/plewis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn_run.root /home/plewis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd_run.root /home/plewis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.root Efficiencies_2nd_run.root /home/ple[1Pwis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results/[A[C[C[C[C[C2.root Efficiencies_2nd_run.root /home/plewis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results/[A[C[C[C[C[C
+
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[00m$ mv Ur_Run2.root Efficiencies_2nd_run.root /home/plewis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results/[1P_results/3_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_run.root /home/ple[1Pwis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run3_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_run.root /home/plew[1Pis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run3_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_run.root /home/plewi[1Ps/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run3_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3_run.root /home/plewis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run3_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr_run.root /home/plewis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run3_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd_run.root /home/plewis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run3_results/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.root Efficiencies_3rd_run.root /home/ple[1Pwis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run3_results/[A[C[C[C[C[C3.root Efficiencies_3rd_run.root /home/plewis/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run3_results/[A[C[C[C[C[C
+
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[00m$ ls
+[?2004l[0m[01;34mRun1_results[0m  [01;34mRun2_results[0m  [01;34mRun3_results[0m
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[00m$ cd Run1_results/
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run1_results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run1_results[00m$ ls
+[?2004lCalibrations.root  Efficiencies_first_run.root  Europium_day1.root  Histograms.root  Ur_Run1.root
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run1_results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run1_results[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] TBrowse[D[D[D[D[D[D[D[0m[38;5;12m[1mTBrowser[0m b
+[0m(TBrowser &) Name: Browser Title: ROOT Object Browser
+[0mroot [1] (TFile *) 0x56110fdb62b0
+
+[0m[0mroot [1] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run1_results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run1_results[00m$ ls
+[?2004lCalibrations.root  Efficiencies_first_run.root  Europium_day1.root  Histograms.root  Ur_Run1.root
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run1_results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run1_results[00m$ cd ..
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[00m$ ls
+[?2004l[0m[01;34mRun1_results[0m  [01;34mRun2_results[0m  [01;34mRun3_results[0m
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[00m$ cd Run2_results/
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results[00m$ ls
+[?2004lEfficiencies_2nd_run.root  Eu_day2.root  Ur_Run2.root
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[D[0m[38;5;12m[1mTBrowser[0m b
+[0m(TBrowser &) Name: Browser Title: ROOT Object Browser
+[0mroot [1] (TFile *) 0x55843bf1c3d0
+
+[0m[0mroot [1] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results[00m$ ls
+[?2004lEfficiencies_2nd_run.root  Eu_day2.root  Ur_Run2.root
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run2_results[00m$ cd ..
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[00m$ ls
+[?2004l[0m[01;34mRun1_results[0m  [01;34mRun2_results[0m  [01;34mRun3_results[0m
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[00m$ cd Run3_results/
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run3_results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run3_results[00m$ ls
+[?2004lEfficiencies_3rd_run.root  Europium_day3.root  Ur_Run3.root
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run3_results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run3_results[00m$ cd[K[Kroot
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] TBrowse[D[D[D[D[D[D[D[0m[38;5;12m[1mTBrowser[0m b
+[0m(TBrowser &) Name: Browser Title: ROOT Object Browser
+[0mroot [1] (TFile *) 0x55753482c6b0
+
+[0m[0mroot [1] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run3_results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results/Run3_results[00m$ cd [K ..
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/Tables_plots_Results[00m$ cd ..
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances[00m$ ls
+[?2004l[0m[01;34mTables_plots_Results[0m  [01;34mcodes[0m  [01;34mdatfiles[0m
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances[00m$ cd codes/
+[?2004l[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ ls
+[?2004lBa_133.xy              Eff_Run3_results.text  Eu_day3.xy       Isotope.C          Sources.C   Uranium.xy
+Calibrations.C         Efficiencies_data_1.C  Europium.C       Isotope_R1.C       UR_day2.xy  Uranium_R1.txt
+Cobalt.xy              Efficiencies_data_2.C  Europium.xy      Isotope_R1_day2.C  UR_day3.xy  Uranium_R2.txt
+Eff_Run1_results.text  Efficiencies_data_3.C  Europium_day2.C  Isotope_R1_day3.C  Ur_day2.xy  Uranium_R3.txt
+Eff_Run2_results.text  Eu_day2.xy             Europium_day3.C  Lab1_tables.ipynb  Ur_day3.xy
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ gedit
+[?2004l
+^C
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ wxt[K[K[Kexit
+[?2004lexit
+
+Script done on 2024-10-04 18:59:33-05:00 [COMMAND_EXIT_CODE="130"]

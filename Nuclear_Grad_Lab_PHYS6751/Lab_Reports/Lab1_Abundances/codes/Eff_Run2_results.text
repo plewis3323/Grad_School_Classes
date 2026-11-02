@@ -1,0 +1,259 @@
+#include <iostream> 
+#include <fstream>
+#include <TFile.h>
+#include <TH1F.h>
+#include <string>
+#include <TGraphErrors.h>
+#include <TF1.h>
+#include <TRandom.h>
+#include <TCanvas.h>
+#include <TString.h>
+#include <vector>
+#include <string>
+#include <TLegend.h>
+#include <cmath>
+#include <TMath.h>
+#include <TLatex.h>
+using namespace std; 
+
+
+
+void efficiency_calculation(TCanvas *Eff) {
+
+    Eff->cd();
+    Eff->SetGrid();
+
+    // Number of peaks outside the reference
+    const int nPeaks = 8;
+    double N_ref = 33304.5; 
+    double I_ref = 28.37; 
+    double I_i[nPeaks] = {7.53, 26.57, 3.125, 12.97, 14.63, 10.13,  13.54, 20.85};  // intensities of other peaks
+    double N_i[nPeaks] = {4754.74, 11587.8, 421.276, 910.91, 1669.06, 887.99, 1283.13, 1738.67};  
+    double sigma_N_i[nPeaks] = {84.59, 115.705, 51.06, 63.36, 52.068, 45.25, 47.27, 43.16};  // uncertainties in N_i
+    double sigma_N_ref = 148.52 ;  // uncertainty in N_ref
+    double sigma_I_i[nPeaks] = {4.0, 11.0, 14.0, 6.0, 6.0, 5.0, 6.0, 9.0};  // uncertainties in I_i
+   double sigma_I_ref = 13.0;  // uncertainty in I_ref
+
+    // Arrays to store calculated efficiencies and errors
+    double efficiency[nPeaks];
+    double sigma_efficiency[nPeaks];
+    double energy[nPeaks] = {244.697, 344.279, 443.965, 778.821, 964.079, 1085.869, 1112.069, 1408.006};  // energies
+    double energy_err[nPeaks] = {0.001, 0.001, 0.003, 0.002, 0.018, 0.024, 0.003, 0.003};  // uncertainty in energies
+
+    // Calculate relative efficiencies and their uncertainties
+    for (int i = 0; i < nPeaks; ++i) {
+        double expected_i = (N_ref / I_ref) * I_i[i];
+        efficiency[i] = (N_i[i] * I_ref) / (N_ref * I_i[i]);
+
+        // Error propagation
+        double fractional_uncertainty = pow(sigma_N_i[i] / N_i[i], 2)
+                                      + pow(sigma_I_ref / I_ref, 2)
+                                      + pow(sigma_N_ref / N_ref, 2)
+                                      + pow(sigma_I_i[i] / I_i[i], 2);
+        sigma_efficiency[i] = efficiency[i] * sqrt(fractional_uncertainty);
+
+        std::cout << "Efficiency for peak " << i+2 << " (Energy = " << energy[i] << " keV): "
+                  << efficiency[i] << " ± " << sigma_efficiency[i] << std::endl;
+    }
+
+    // Create a graph of efficiency vs energy with error bars
+    TGraphErrors *graph = new TGraphErrors(nPeaks, energy, efficiency, energy_err, sigma_efficiency);
+    graph->SetTitle("Run2: Relative Efficiency vs Energy;Energy (keV);Relative Efficiency");
+    graph->SetMarkerStyle(21);
+    graph->SetMarkerColor(kBlue);
+    graph->Draw("AP");
+
+    // Fit the graph with a quadratic function for low energies
+    TF1 *fitFunc1 = new TF1("fitFunc1", " [0]*x^2  + [1]*x + [2]", 0, 500);  
+    fitFunc1->SetLineColor(kRed);
+    graph->Fit(fitFunc1, "R");
+
+    // Fit the graph with a linear function for higher energies
+    TF1 *fitFunc2 = new TF1("fitFunc2", " [0]*x + [1]", 750, 1500);  
+    fitFunc2->SetLineColor(kGreen);
+    graph->Fit(fitFunc2, "R+");
+
+    // Add a legend to the canvas
+    TLegend *legend = new TLegend(0.6, 0.7, 0.9, 0.9);
+    legend->AddEntry(graph, "Data points", "p");
+    legend->AddEntry(fitFunc1, "Pol2 Fit (0-500 keV)", "l");
+    legend->AddEntry(fitFunc2, "Pol3 Fit (750-1500 keV)", "l");
+    legend->Draw();
+}
+
+
+
+
+void Run1() { 
+
+
+
+TCanvas *c1 = new TCanvas("c1", "Efficiency vs Energy", 800, 600);
+efficiency_calculation(c1); 
+TFile *Eff1 = new TFile("Efficiencies_2nd_run.root", "RECREATE"); 
+c1->Write();
+Eff1->Close(); 
+
+
+}  
+
+
+---------------------------------------------------------------------------------------------------------------
+Results: 
+
+Efficiency for peak 2 (Energy = 244.697 keV): 0.537883 ± 0.377475
+Efficiency for peak 3 (Energy = 344.279 keV): 0.371506 ± 0.229461
+Efficiency for peak 4 (Energy = 443.965 keV): 0.114835 ± 0.517331
+Efficiency for peak 5 (Energy = 778.821 keV): 0.0598263 ± 0.0391776
+Efficiency for peak 6 (Energy = 964.079 keV): 0.0971816 ± 0.0598408
+Efficiency for peak 7 (Energy = 1085.87 keV): 0.0746715 ± 0.050436
+Efficiency for peak 8 (Energy = 1112.07 keV): 0.0807251 ± 0.0515452
+Efficiency for peak 9 (Energy = 1408.01 keV): 0.0710342 ± 0.0447536
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =  6.22278e-18
+NDf                       =            0
+Edm                       =  6.22279e-18
+NCalls                    =           60
+p0                        =  -4.5368e-06   +/-   3.96789e-05
+p1                        =   0.00100131   +/-   0.0267116
+p2                        =     0.564514   +/-   4.42418
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =     0.279638
+NDf                       =            3
+Edm                       =  3.11896e-16
+NCalls                    =           39
+p0                        =  1.37692e-05   +/-   9.29236e-05
+p1                        =    0.0587875   +/-   0.100514
+-----------------------------------------------------------------------------------------------------------
+#include <iostream> 
+#include <fstream>
+#include <TFile.h>
+#include <TH1F.h>
+#include <string>
+#include <TGraphErrors.h>
+#include <TF1.h>
+#include <TRandom.h>
+#include <TCanvas.h>
+#include <TString.h>
+#include <vector>
+#include <string>
+#include <TLegend.h>
+#include <cmath>
+#include <TMath.h>
+#include <TLatex.h>
+using namespace std; 
+
+
+
+void efficiency_calculation(TCanvas *Eff) {
+
+    Eff->cd();
+    Eff->SetGrid();
+
+    // Number of peaks outside the reference
+    const int nPeaks = 8;
+    double N_ref = 33304.5; 
+    double I_ref = 28.37; 
+    double I_i[nPeaks] = {7.53, 26.57, 3.125, 12.97, 14.63, 10.13,  13.54, 20.85};  // intensities of other peaks
+    double N_i[nPeaks] = {4754.74, 11587.8, 421.276, 910.91, 1669.06, 887.99, 1283.13, 1738.67};  
+    double sigma_N_i[nPeaks] = {84.59, 115.705, 51.06, 63.36, 52.068, 45.25, 47.27, 43.16};  // uncertainties in N_i
+    double sigma_N_ref = 148.52 ;  // uncertainty in N_ref
+    double sigma_I_i[nPeaks] = {0.04, 0.11, 0.014, 0.06, 0.06, 0.05, 0.06, 0.09};  // uncertainties in I_i
+   double sigma_I_ref = 0.13;  // uncertainty in I_ref
+
+    // Arrays to store calculated efficiencies and errors
+    double efficiency[nPeaks];
+    double sigma_efficiency[nPeaks];
+    double energy[nPeaks] = {244.697, 344.279, 443.965, 778.821, 964.079, 1085.869, 1112.069, 1408.006};  // energies
+    double energy_err[nPeaks] = {0.001, 0.001, 0.003, 0.002, 0.018, 0.024, 0.003, 0.003};  // uncertainty in energies
+
+    // Calculate relative efficiencies and their uncertainties
+    for (int i = 0; i < nPeaks; ++i) {
+        double expected_i = (N_ref / I_ref) * I_i[i];
+        efficiency[i] = (N_i[i] * I_ref) / (N_ref * I_i[i]);
+
+        // Error propagation
+        double fractional_uncertainty = pow(sigma_N_i[i] / N_i[i], 2)
+                                      + pow(sigma_I_ref / I_ref, 2)
+                                      + pow(sigma_N_ref / N_ref, 2)
+                                      + pow(sigma_I_i[i] / I_i[i], 2);
+        sigma_efficiency[i] = efficiency[i] * sqrt(fractional_uncertainty);
+
+        std::cout << "Efficiency for peak " << i+2 << " (Energy = " << energy[i] << " keV): "
+                  << efficiency[i] << " ± " << sigma_efficiency[i] << std::endl;
+    }
+
+    // Create a graph of efficiency vs energy with error bars
+    TGraphErrors *graph = new TGraphErrors(nPeaks, energy, efficiency, energy_err, sigma_efficiency);
+    graph->SetTitle("Run2: Relative Efficiency vs Energy;Energy (keV);Relative Efficiency");
+    graph->SetMarkerStyle(21);
+    graph->SetMarkerColor(kBlue);
+    graph->Draw("AP");
+
+    // Fit the graph with a quadratic function for low energies
+    TF1 *fitFunc1 = new TF1("fitFunc1", " [0]*x^2  + [1]*x + [2]", 0, 500);  
+    fitFunc1->SetLineColor(kRed);
+    graph->Fit(fitFunc1, "R");
+
+    // Fit the graph with a linear function for higher energies
+    TF1 *fitFunc2 = new TF1("fitFunc2", " [0]*x + [1]", 750, 1500);  
+    fitFunc2->SetLineColor(kGreen);
+    graph->Fit(fitFunc2, "R+");
+
+    // Add a legend to the canvas
+    TLegend *legend = new TLegend(0.6, 0.7, 0.9, 0.9);
+    legend->AddEntry(graph, "Data points", "p");
+    legend->AddEntry(fitFunc1, "Pol2 Fit (0-500 keV)", "l");
+    legend->AddEntry(fitFunc2, "Linear Fit (750-1500 keV)", "l");
+    legend->Draw();
+}
+
+
+
+
+void Run1() { 
+
+
+
+TCanvas *c1 = new TCanvas("c1", "Efficiency vs Energy", 800, 600);
+efficiency_calculation(c1); 
+TFile *Eff1 = new TFile("Efficiencies_2nd_run.root", "RECREATE"); 
+c1->Write();
+Eff1->Close(); 
+
+
+}  
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+root [0] .L Efficiencies_data_2.C
+root [1] Run1()
+Efficiency for peak 2 (Energy = 244.697 keV): 0.537883 ± 0.0105624
+Efficiency for peak 3 (Energy = 344.279 keV): 0.371506 ± 0.0046657
+Efficiency for peak 4 (Energy = 443.965 keV): 0.114835 ± 0.0139472
+Efficiency for peak 5 (Energy = 778.821 keV): 0.0598263 ± 0.00418802
+Efficiency for peak 6 (Energy = 964.079 keV): 0.0971816 ± 0.00312026
+Efficiency for peak 7 (Energy = 1085.87 keV): 0.0746715 ± 0.0038526
+Efficiency for peak 8 (Energy = 1112.07 keV): 0.0807251 ± 0.00303946
+Efficiency for peak 9 (Energy = 1408.01 keV): 0.0710342 ± 0.00184652
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =  1.36757e-15
+NDf                       =            0
+Edm                       =  1.36759e-15
+NCalls                    =           93
+p0                        =  -4.5368e-06   +/-   9.98605e-07
+p1                        =   0.00100131   +/-   0.000672172
+p2                        =     0.564514   +/-   0.112805
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      63.6507
+NDf                       =            3
+Edm                       =  2.89621e-07
+NCalls                    =           40
+p0                        = -1.52647e-05   +/-   5.75405e-06
+p1                        =    0.0945574   +/-   0.00697907
+root [2]

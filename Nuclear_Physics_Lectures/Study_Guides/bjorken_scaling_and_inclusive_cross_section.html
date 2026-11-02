@@ -1,0 +1,206 @@
+<h2 class="sr-only">Recreation of Griffiths Figures 8.5 and 8.6: inclusive electron-proton cross section versus hadronic mass W, and structure function F2 versus Q-squared demonstrating Bjorken scaling.</h2>
+<style>
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+  .panel-label { font-size: 13px; color: var(--color-text-secondary); margin: 0 0 2px; }
+  .panel-title { font-size: 15px; font-weight: 500; margin: 0 0 10px; color: var(--color-text-primary); }
+  .chart-wrap { position: relative; width: 100%; height: 300px; }
+  .toggles { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin: 0 0 10px; font-size: 13px; color: var(--color-text-secondary); }
+  .toggles label { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+  .swatch { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
+  .caption { font-size: 12px; color: var(--color-text-secondary); margin: 8px 0 0; line-height: 1.5; }
+</style>
+
+<div style="padding: 1rem 0;">
+  <p class="panel-label">Figure 8.5 — recreated</p>
+  <p class="panel-title">Inclusive e⁻p cross section vs hadronic final-state mass W</p>
+  <div class="chart-wrap">
+    <canvas id="csChart" role="img" aria-label="Inclusive electron-proton cross section from 0.8 to 4 GeV in W, showing sharp elastic peak at the proton mass, Delta resonance at 1.232 GeV, two nucleon resonances near 1.52 and 1.68 GeV, and a smooth deep inelastic continuum above 2 GeV."></canvas>
+  </div>
+  <p class="caption">E = 10 GeV, θ = 6°. Elastic peak reduced by factor 8.5 to fit on the same scale. Vertical axis in μb·GeV⁻¹·sr⁻¹.</p>
+</div>
+
+<div style="padding: 0.5rem 0 1rem;">
+  <p class="panel-label">Figure 8.6 — recreated and extended</p>
+  <p class="panel-title">Bjorken scaling: F₂(x) vs Q² at fixed x</p>
+  <div class="toggles">
+    <span>Compare x values:</span>
+    <label><input type="checkbox" id="xA" checked><span class="swatch" style="background:#D85A30;"></span>x = 0.10</label>
+    <label><input type="checkbox" id="xB" checked><span class="swatch" style="background:#378ADD;"></span>x = 0.25</label>
+    <label><input type="checkbox" id="xC" checked><span class="swatch" style="background:#1D9E75;"></span>x = 0.50</label>
+  </div>
+  <div class="chart-wrap">
+    <canvas id="sclChart" role="img" aria-label="Structure function F2 plotted against Q-squared from 0 to 8 GeV squared, at three fixed values of Bjorken x. All three data series lie on flat horizontal bands, illustrating that F2 at fixed x is essentially independent of Q-squared."></canvas>
+  </div>
+  <p class="caption">Each dataset is F₂(x, Q²) ≡ νW₂ measured at fixed x across a range of Q². Dashed lines mark the scaling plateau for each x.</p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+(function() {
+  const elasticW = 0.938;
+  const resonances = [
+    { W: 1.232, h: 1.30, s: 0.055, label: 'Δ(1232)' },
+    { W: 1.520, h: 0.55, s: 0.075, label: 'N*(1520)' },
+    { W: 1.690, h: 0.48, s: 0.080, label: 'N*(1680)' }
+  ];
+
+  function sigma(W) {
+    if (W < 0.88) return 0;
+    let y = 1.35 * Math.exp(-((W - elasticW) / 0.010) ** 2);
+    for (const r of resonances) {
+      y += r.h * Math.exp(-((W - r.W) / r.s) ** 2);
+    }
+    if (W > 1.25) {
+      y += 0.50 * Math.exp(-(W - 1.25) / 1.6);
+    }
+    return y;
+  }
+
+  const csData = [];
+  for (let W = 0.85; W <= 4.01; W += 0.015) {
+    csData.push({ x: +W.toFixed(3), y: +sigma(W).toFixed(3) });
+  }
+
+  const labelPlugin = {
+    id: 'peakLabels',
+    afterDatasetsDraw(chart) {
+      const ctx = chart.ctx;
+      const xs = chart.scales.x, ys = chart.scales.y;
+      const labels = [
+        { W: 0.938, y: 1.38, t: 'elastic (÷ 8.5)', dy: -6, anchor: 'center', color: '#0C447C' },
+        { W: 1.232, y: 1.33, t: 'Δ(1232)',         dy: -6, anchor: 'center', color: '#993C1D' },
+        { W: 1.520, y: 0.58, t: 'N*(1520)',        dy: -6, anchor: 'center', color: '#993C1D' },
+        { W: 1.690, y: 0.51, t: 'N*(1680)',        dy: -6, anchor: 'center', color: '#993C1D' },
+        { W: 3.10,  y: 0.22, t: 'DIS continuum',   dy:  0, anchor: 'center', color: '#085041' }
+      ];
+      ctx.save();
+      ctx.font = '500 11px system-ui, -apple-system, sans-serif';
+      for (const l of labels) {
+        const px = xs.getPixelForValue(l.W);
+        const py = ys.getPixelForValue(l.y) + l.dy;
+        ctx.fillStyle = l.color;
+        ctx.textAlign = l.anchor;
+        ctx.fillText(l.t, px, py);
+      }
+      ctx.restore();
+    }
+  };
+
+  new Chart(document.getElementById('csChart'), {
+    type: 'line',
+    data: {
+      datasets: [{
+        data: csData,
+        borderColor: '#378ADD',
+        backgroundColor: 'rgba(55, 138, 221, 0.08)',
+        borderWidth: 1.4,
+        pointRadius: 0,
+        tension: 0.25,
+        fill: true
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { enabled: false } },
+      scales: {
+        x: {
+          type: 'linear', min: 0.8, max: 4.0,
+          title: { display: true, text: 'W  (GeV/c²)', color: '#5F5E5A', font: { size: 12 } },
+          ticks: { color: '#5F5E5A', font: { size: 11 } },
+          grid: { color: 'rgba(128,128,128,0.08)' }
+        },
+        y: {
+          min: 0, max: 1.7,
+          title: { display: true, text: 'dσ / (dE′ dΩ)   [μb · GeV⁻¹ · sr⁻¹]', color: '#5F5E5A', font: { size: 12 } },
+          ticks: { color: '#5F5E5A', font: { size: 11 } },
+          grid: { color: 'rgba(128,128,128,0.08)' }
+        }
+      }
+    },
+    plugins: [labelPlugin]
+  });
+
+  function f2(x) {
+    return { 0.10: 0.43, 0.25: 0.33, 0.50: 0.17 }[x];
+  }
+  function scalingPoints(x, seed) {
+    const Q2s = [0.7, 1.1, 1.5, 2.0, 2.6, 3.3, 4.0, 5.0, 6.0, 7.0, 7.8];
+    let s = seed;
+    function rnd() { s = (s * 9301 + 49297) % 233280; return s / 233280 - 0.5; }
+    return Q2s.map(Q2 => ({ x: Q2, y: +(f2(x) + rnd() * 0.055).toFixed(3) }));
+  }
+
+  const xSets = [
+    { x: 0.10, color: '#D85A30', id: 'xA' },
+    { x: 0.25, color: '#378ADD', id: 'xB' },
+    { x: 0.50, color: '#1D9E75', id: 'xC' }
+  ];
+
+  const plateauPlugin = {
+    id: 'plateaus',
+    beforeDatasetsDraw(chart) {
+      const ctx = chart.ctx;
+      const xs = chart.scales.x, ys = chart.scales.y;
+      ctx.save();
+      ctx.setLineDash([4, 3]);
+      ctx.lineWidth = 1;
+      xSets.forEach((xv, i) => {
+        const ds = chart.data.datasets[i];
+        if (ds.hidden) return;
+        const y = f2(xv.x);
+        const py = ys.getPixelForValue(y);
+        ctx.strokeStyle = xv.color + '88';
+        ctx.beginPath();
+        ctx.moveTo(xs.getPixelForValue(0.3), py);
+        ctx.lineTo(xs.getPixelForValue(8.5), py);
+        ctx.stroke();
+      });
+      ctx.restore();
+    }
+  };
+
+  const sclChart = new Chart(document.getElementById('sclChart'), {
+    type: 'scatter',
+    data: {
+      datasets: xSets.map((xv, i) => ({
+        label: 'x = ' + xv.x.toFixed(2),
+        data: scalingPoints(xv.x, 137 + i * 53),
+        borderColor: xv.color,
+        backgroundColor: xv.color,
+        pointRadius: 4,
+        pointHoverRadius: 6,
+        pointStyle: ['circle','triangle','rect'][i]
+      }))
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: {
+          type: 'linear', min: 0, max: 9,
+          title: { display: true, text: 'Q²  (GeV²)', color: '#5F5E5A', font: { size: 12 } },
+          ticks: { color: '#5F5E5A', font: { size: 11 } },
+          grid: { color: 'rgba(128,128,128,0.08)' }
+        },
+        y: {
+          min: 0, max: 0.6,
+          title: { display: true, text: 'F₂(x, Q²)  =  νW₂', color: '#5F5E5A', font: { size: 12 } },
+          ticks: { color: '#5F5E5A', font: { size: 11 } },
+          grid: { color: 'rgba(128,128,128,0.08)' }
+        }
+      }
+    },
+    plugins: [plateauPlugin]
+  });
+
+  xSets.forEach((xv, i) => {
+    const cb = document.getElementById(xv.id);
+    cb.addEventListener('change', e => {
+      sclChart.data.datasets[i].hidden = !e.target.checked;
+      sclChart.update();
+    });
+  });
+})();
+</script>

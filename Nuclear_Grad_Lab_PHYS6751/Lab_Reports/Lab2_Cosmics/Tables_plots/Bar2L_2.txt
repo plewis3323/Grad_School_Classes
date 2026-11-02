@@ -1,0 +1,128 @@
+Script started on 2024-10-09 12:46:39-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab2:Cosmics/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab2:Cosmics/codes[00m$ root
+[?2004l
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0mRun1()[D[D[D[D[D[DRun1()[D[D[D[D[D[D.L Bar2L.C 
+[0m[0mroot [1] .L Bar2L.C [D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0mThe Count rates are: 562.6
+The Count rates are: 564.2
+The Count rates are: 549.15
+The Count rates are: 558.55
+The Count rates are: 597.55
+The Count rates are: 525.8
+The Count rates are: 533
+The Count rates are: 534.5
+The Count rates are: 536.2
+The Count rates are: 540.7
+The Count rates are: 512.75
+The Count rates are: 503.35
+The Count rates are: 482.2
+The Count rates are: 464.4
+The Count rates are: 328.95
+The Count rates are: 620.7
+The Count rates are: 654.1
+The Count rates are: 606.9
+The Counts are: 11252
+The Voltages are: 50.2
+The Count errors are: 23.7192
+The Counts are: 11284
+The Voltages are: 58.6
+The Count errors are: 23.7529
+The Counts are: 10983
+The Voltages are: 69.5
+The Count errors are: 23.4339
+The Counts are: 11171
+The Voltages are: 81.8
+The Count errors are: 23.6337
+The Counts are: 11951
+The Voltages are: 91.5
+The Count errors are: 24.4448
+The Counts are: 10516
+The Voltages are: 99.2
+The Count errors are: 22.9303
+The Counts are: 10660
+The Voltages are: 111.3
+The Count errors are: 23.0868
+The Counts are: 10690
+The Voltages are: 120.5
+The Count errors are: 23.1193
+The Counts are: 10724
+The Voltages are: 132.6
+The Count errors are: 23.156
+The Counts are: 10814
+The Voltages are: 140.2
+The Count errors are: 23.253
+The Counts are: 10255
+The Voltages are: 149.99
+The Count errors are: 22.644
+The Counts are: 10067
+The Voltages are: 171.8
+The Count errors are: 22.4355
+The Counts are: 9644
+The Voltages are: 199.1
+The Count errors are: 21.9591
+The Counts are: 9288
+The Voltages are: 230.2
+The Count errors are: 21.5499
+The Counts are: 6579
+The Voltages are: 298.9
+The Count errors are: 18.137
+The Counts are: 12414
+The Voltages are: 22.1
+The Count errors are: 24.9139
+The Counts are: 13082
+The Voltages are: 31.3
+The Count errors are: 25.5754
+The Counts are: 12138
+The Voltages are: 40.1
+The Count errors are: 24.6353
+The 4 smallest elements based on left and right neighbor differences:
+Element 10690 at index 7 with combined difference of 64
+Element 11252 at index 12 with combined difference of 113
+Element 10724 at index 8 with combined difference of 124
+Element 10660 at index 6 with combined difference of 174
+
+
+V_th = 120.5 mv
+
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =       9.6226
+NDf                       =           12
+p0                        =      697.557   +/-   43.945      
+p1                        =     -3.26022   +/-   1.56922     
+p2                        =    0.0237101   +/-   0.0158181   
+p3                        = -6.45934e-05   +/-   4.69819e-05 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      53.6011
+NDf                       =           15
+Edm                       =  1.86126e-14
+NCalls                    =           13
+p0                        =      551.791   +/-   5.87256     
+[0mroot [2] exit
+[0m(void (*)(int) __attribute__((noreturn)) noexcept(true)) Function @0x7f16503f25f0
+  at /usr/include/stdlib.h:624:
+extern void exit (int __status) __THROW __attribute__ ((__noreturn__))
+
+[0mroot [3] /q
+[0m[1mROOT_prompt_3:1:1: [0m[0;1;31merror: [0m[1mexpected expression[0m
+/q
+[0;1;32m^
+[0m[1mROOT_prompt_3:1:2: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'q'[0m
+/q
+[0;1;32m ^
+[0m[0mroot [4] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab2:Cosmics/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab2:Cosmics/codes[00m$ exit
+[?2004l
+exit
+
+Script done on 2024-10-09 12:47:14-05:00 [COMMAND_EXIT_CODE="0"]

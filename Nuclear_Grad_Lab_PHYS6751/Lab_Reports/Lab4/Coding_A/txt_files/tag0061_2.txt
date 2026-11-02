@@ -1,0 +1,107 @@
+Script started on 2024-11-18 15:36:55-06:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="55" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Peak_Sources_Finding.C 
+[0m[0mroot [1] .L Peak_Sources_Finding.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0mEnter fit range for Peak 1:
+Start: 471 2 482
+End: Enter first background range for Peak 1:
+Start: 462 472
+End: Enter second background range for Peak 1:
+Start: 482 492
+End: ****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      8.96437
+NDf                       =            7
+Edm                       =  4.81103e-09
+NCalls                    =           75
+Constant                  =      3447.99   +/-   76.7979     
+Mean                      =      475.571   +/-   0.00725298  
+Sigma                     =     0.497386   +/-   0.00704492   	 (limited)
+Peak 1 Mean = 475.571
+Peak 1 Total: N_t = 4298.83
+Peak 1 Background: N_b = 4
+Peak 1 Signal: N_s = 4294.83
+Peak 1 Std Error = 0.00758963
+Peak 1 Sigma_counts = 65.5959
+Enter fit range for Peak 2:
+Start: 160 210
+End: Enter first background range for Peak 2:
+Start: 110 160
+End: Enter second background range for Peak 2:
+Start: 210 260
+End: Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       429530
+NDf                       =           48
+Edm                       =      63.3622
+NCalls                    =          306
+Constant                  =      3499.21   +/-   1.02853     
+Mean                      =      78.0312   +/-   86.871      
+Sigma                     =      45.8785   +/-   25.9742      	 (limited)
+Peak 2 Mean = 78.0312
+Peak 2 Total: N_t = 14078.9
+Peak 2 Background: N_b = 3403.5
+Peak 2 Signal: N_s = 10675.4
+Peak 2 Std Error = 0.444035
+Peak 2 Sigma_counts = 132.221
+[0mroot [2] Run1[0m[38;5;83m[1m()
+[0mWarning in <TROOT::Append>: Replacing existing TH1: Counts vs. Channel Number (Potential memory leak).
+Enter fit range for Peak 1:
+Start: 471   2 482
+End: Enter first background range for Peak 1:
+Start: 462 472
+End: Enter second background range for Peak 1:
+Start: 482 292   492
+End: ****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      8.96437
+NDf                       =            7
+Edm                       =  4.81103e-09
+NCalls                    =           75
+Constant                  =      3447.99   +/-   76.7979     
+Mean                      =      475.571   +/-   0.00725298  
+Sigma                     =     0.497386   +/-   0.00704492   	 (limited)
+Peak 1 Mean = 475.571
+Peak 1 Total: N_t = 4298.83
+Peak 1 Background: N_b = 4
+Peak 1 Signal: N_s = 4294.83
+Peak 1 Std Error = 0.00758963
+Peak 1 Sigma_counts = 65.5959
+Enter fit range for Peak 2:
+Start: 180   210
+End: Enter first background range for Peak 2:
+Start: 150 180
+End: Enter second background range for Peak 2:
+Start: 210 240
+End: ****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      62953.1
+NDf                       =           28
+Edm                       =  6.31483e-09
+NCalls                    =          178
+Constant                  =       124858   +/-   266.895     
+Mean                      =      196.548   +/-   0.0023267   
+Sigma                     =      1.18417   +/-   0.00162098   	 (limited)
+Peak 2 Mean = 196.548
+Peak 2 Total: N_t = 370612
+Peak 2 Background: N_b = 6446.5
+Peak 2 Signal: N_s = 364165
+Peak 2 Std Error = 0.0019623
+Peak 2 Sigma_counts = 614.051
+[0mroot [3] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ exit
+[?2004lexit
+
+Script done on 2024-11-18 15:41:59-06:00 [COMMAND_EXIT_CODE="0"]

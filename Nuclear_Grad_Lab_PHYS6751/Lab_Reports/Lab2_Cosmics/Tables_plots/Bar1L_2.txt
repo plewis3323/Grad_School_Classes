@@ -1,0 +1,123 @@
+
+[0mroot [0] .q[D[D.L Bar1L.C[D[D[D[D[D[D[D[D[D[D.q[K[D[D.L Bar1L.C
+[0m[0mroot [1] .L Bar1L.C[D[D[D[D[D[D[D[D[D[D.q[K[D[D.L Bar1L.C[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0mThe Count rates are: 19344.3
+The Count rates are: 2832.85
+The Count rates are: 1378.45
+The Count rates are: 1323.95
+The Count rates are: 1091.15
+The Count rates are: 1198.45
+The Count rates are: 1033.95
+The Count rates are: 1001.5
+The Count rates are: 965.1
+The Count rates are: 1004.6
+The Count rates are: 974.3
+The Count rates are: 989.5
+The Count rates are: 1059.85
+The Count rates are: 992.7
+The Count rates are: 915.85
+The Count rates are: 899.5
+The Count rates are: 869.5
+The Count rates are: 881.05
+The Count rates are: 869.95
+The Count rates are: 792.4
+The Counts are: 386887
+The Voltages are: 40.3
+The Count errors are: 139.084
+The Counts are: 56657
+The Voltages are: 45.6
+The Count errors are: 53.2245
+The Counts are: 27569
+The Voltages are: 50.2
+The Count errors are: 37.1275
+The Counts are: 26479
+The Voltages are: 57.2
+The Count errors are: 36.3861
+The Counts are: 21823
+The Voltages are: 64.7
+The Count errors are: 33.0326
+The Counts are: 23969
+The Voltages are: 71.8
+The Count errors are: 34.6186
+The Counts are: 20679
+The Voltages are: 75.4
+The Count errors are: 32.1551
+The Counts are: 20030
+The Voltages are: 80.2
+The Count errors are: 31.6465
+The Counts are: 19302
+The Voltages are: 85.9
+The Count errors are: 31.0661
+The Counts are: 20092
+The Voltages are: 90.1
+The Count errors are: 31.6954
+The Counts are: 19486
+The Voltages are: 97.5
+The Count errors are: 31.2138
+The Counts are: 19790
+The Voltages are: 102.7
+The Count errors are: 31.4563
+The Counts are: 21197
+The Voltages are: 108.1
+The Count errors are: 32.5553
+The Counts are: 19854
+The Voltages are: 111.7
+The Count errors are: 31.5071
+The Counts are: 18317
+The Voltages are: 152.2
+The Count errors are: 30.263
+The Counts are: 17990
+The Voltages are: 161.9
+The Count errors are: 29.9917
+The Counts are: 17390
+The Voltages are: 170
+The Count errors are: 29.4873
+The Counts are: 17621
+The Voltages are: 181.5
+The Count errors are: 29.6825
+The Counts are: 17399
+The Voltages are: 190.1
+The Count errors are: 29.4949
+The Counts are: 15848
+The Voltages are: 201.7
+The Count errors are: 28.1496
+The 4 smallest elements based on left and right neighbor differences:
+Element 17621 at index 17 with combined difference of 453
+Element 17390 at index 16 with combined difference of 831
+Element 19486 at index 10 with combined difference of 910
+Element 17990 at index 15 with combined difference of 927
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =      15265.4
+NDf                       =           16
+p0                        =      7900.32   +/-   135.208     
+p1                        =     -168.721   +/-   3.75624     
+p2                        =      1.28691   +/-   0.0324864   
+p3                        =  -0.00312375   +/-   8.76504e-05 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      18822.6
+NDf                       =           19
+Edm                       =  7.12096e-13
+NCalls                    =           13
+p0                        =      1079.82   +/-   7.34785     
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab2:Cosmics/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab2:Cosmics/codes[00m$ exit
+[?2004l
+
+
+v_th = 97.5 mv
+
+
+
+
+
+
+
+
+
+
+
+exit
+
+Script done on 2024-10-09 11:39:26-05:00 [COMMAND_EXIT_CODE="0"]

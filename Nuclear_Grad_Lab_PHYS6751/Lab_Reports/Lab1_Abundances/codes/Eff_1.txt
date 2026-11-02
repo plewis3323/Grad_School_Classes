@@ -1,0 +1,192 @@
+Script started on 2024-10-06 21:35:14-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ root
+[?2004l
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .L Eff
+[0m[38;5;207mEff_1.txt[K
+Eff_Run1_results.text
+Eff_Run2_results.text
+Eff_Run3_results.text
+Efficiencies_data_1.C
+Efficiencies_data_2.C
+Efficiencies_data_3.C
+[0m[0mroot [0] .L Eff_[D[Kiciencies_data_1.C 
+[0m[0mroot [1] Run1([D[0m[38;5;83m[1m()
+[0mEfficiency for peak 2 (Energy = 244.697 keV): 0.557184 ± 0.0136477
+Efficiency for peak 3 (Energy = 344.279 keV): 0.374191 ± 0.00601664
+Efficiency for peak 4 (Energy = 443.965 keV): 0.218429 ± 0.016414
+Efficiency for peak 5 (Energy = 778.821 keV): 0.0943952 ± 0.00487275
+Efficiency for peak 6 (Energy = 964.079 keV): 0.0909016 ± 0.00394284
+Efficiency for peak 7 (Energy = 1085.87 keV): 0.0746734 ± 0.00477316
+Efficiency for peak 8 (Energy = 1112.07 keV): 0.0707218 ± 0.00390061
+Efficiency for peak 9 (Energy = 1408.01 keV): 0.0702751 ± 0.00239203
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =  2.39636e-14
+NDf                       =            0
+Edm                       =  2.39636e-14
+NCalls                    =           90
+p0                        =  1.38049e-06   +/-   1.23416e-06 
+p1                        =  -0.00265069   +/-   0.000839626 
+p2                        =      1.12314   +/-   0.14224     
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       9.5887
+NDf                       =            3
+Edm                       =  5.08215e-08
+NCalls                    =           40
+p0                        = -3.66794e-05   +/-   7.15112e-06 
+p1                        =     0.120163   +/-   0.00859698  
+[0mroot [2] .1[D[Kq
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ exit
+[?2004l
+exit
+
+Script done on 2024-10-06 21:35:54-05:00 [COMMAND_EXIT_CODE="0"]
+
+
+
+Efficiency for peak 2 (Energy = 244.697 keV):
+
+Original: 
+0.557184
+±
+0.0136477
+
+0.557184±0.0136477
+Rounded: 
+0.557
+±
+0.014
+0.557±0.014
+Efficiency for peak 3 (Energy = 344.279 keV):
+
+Original: 
+0.374191
+±
+0.00601664
+0.374191±0.00601664
+Rounded: 
+0.374
+±
+0.0060
+0.374±0.0060
+Efficiency for peak 4 (Energy = 443.965 keV):
+
+Original: 
+0.218429
+±
+0.016414
+0.218429±0.016414
+Rounded: 
+0.218
+±
+0.016
+0.218±0.016
+Efficiency for peak 5 (Energy = 778.821 keV):
+
+Original: 
+0.0943952
+±
+0.00487275
+0.0943952±0.00487275
+Rounded: 
+0.094
+±
+0.0049
+0.094±0.0049
+Efficiency for peak 6 (Energy = 964.079 keV):
+
+Original: 
+0.0909016
+±
+0.00394284
+0.0909016±0.00394284
+Rounded: 
+0.091
+±
+0.0039
+0.091±0.0039
+Efficiency for peak 7 (Energy = 1085.87 keV):
+
+Original: 
+0.0746734
+±
+0.00477316
+0.0746734±0.00477316
+Rounded: 
+0.075
+±
+0.0048
+0.075±0.0048
+Efficiency for peak 8 (Energy = 1112.07 keV):
+
+Original: 
+0.0707218
+±
+0.00390061
+0.0707218±0.00390061
+Rounded: 
+0.071
+±
+0.0039
+0.071±0.0039
+Efficiency for peak 9 (Energy = 1408.01 keV):
+
+Original: 
+0.0702751
+±
+0.00239203
+0.0702751±0.00239203
+Rounded: 
+0.070
+±
+0.0024
+0.070±0.0024
+Final Adjusted Values:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

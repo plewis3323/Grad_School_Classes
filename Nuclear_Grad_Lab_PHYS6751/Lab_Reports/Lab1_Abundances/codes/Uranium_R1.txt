@@ -1,0 +1,137 @@
+
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Isotope_R1.C
+[0m[0mroot [1] .L Isotope_R1.C[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0mCanvas c1 created for Uranium
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      337.058
+NDf                       =           13
+Edm                       =  1.41201e-07
+NCalls                    =           72
+Constant                  =      1203.07   +/-   16.3616     
+Mean                      =       872.89   +/-   0.0425067   
+Sigma                     =      4.00756   +/-   0.0514273    	 (limited)
+U-235 Peak 2 total counts (N_t2): 11330
+U-235 Peak 2 background counts (N_b2): 5481.5
+U-235 Peak 2 signal counts (N_s2): 5848.46
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      109.256
+NDf                       =            9
+Edm                       =  1.37319e-05
+NCalls                    =           81
+Constant                  =      808.781   +/-   13.8655     
+Mean                      =      975.489   +/-   0.0764981   
+Sigma                     =      4.33345   +/-   0.112251     	 (limited)
+U-235 Peak 3 total counts (N_t3): 6886.97
+U-235 Peak 3 background counts (N_b3): 3965
+U-235 Peak 3 signal counts (N_s3): 2921.97
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      3146.31
+NDf                       =           23
+Edm                       =  1.06428e-09
+NCalls                    =           85
+Constant                  =      7063.21   +/-   43.8752     
+Mean                      =      1092.45   +/-   0.0126444   
+Sigma                     =       2.7572   +/-   0.0117278    	 (limited)
+Mean = 1092.45
+N_t = 48815.5
+N_b = 7032.5
+N_s = 41783
+std error = 0.0134887
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      96.9449
+NDf                       =           13
+Edm                       =  1.60942e-05
+NCalls                    =           82
+Constant                  =      265.415   +/-   6.92681     
+Mean                      =      1469.31   +/-   0.176143    
+Sigma                     =      6.08746   +/-   0.266023     	 (limited)
+U-235 Peak 5 total counts (N_t5): 3086.01
+U-235 Peak 5 background counts (N_b5): 2445
+U-235 Peak 5 signal counts (N_s5): 641.008
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      45.4973
+NDf                       =           20
+Edm                       =  3.50906e-07
+NCalls                    =           74
+Constant                  =      80.5291   +/-   3.4106      
+Mean                      =       3976.8   +/-   0.205344    
+Sigma                     =      5.96166   +/-   0.242168     	 (limited)
+U-238 Peak 6 total counts (N_t6): 1122.27
+U-238 Peak 6 background counts (N_b6): 462
+U-238 Peak 6 signal counts (N_s6): 660.266
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      4.89355
+NDf                       =           14
+Edm                       =  1.34461e-05
+NCalls                    =           72
+Constant                  =      58.2959   +/-   3.02396     
+Mean                      =      4201.19   +/-   0.288165    
+Sigma                     =      5.59017   +/-   0.36117      	 (limited)
+U-238 Peak 7 total counts (N_t7): 688.848
+U-238 Peak 7 background counts (N_b7): 488
+U-238 Peak 7 signal counts (N_s7): 200.848
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      234.335
+NDf                       =           58
+Edm                       =  5.25187e-09
+NCalls                    =           84
+Constant                  =      403.977   +/-   7.71991     
+Mean                      =      5311.32   +/-   0.0697927   
+Sigma                     =      4.52259   +/-   0.0547956    	 (limited)
+U-238 Peak 8 total counts (N_t8): 4579.67
+U-238 Peak 8 background counts (N_b8): 278.5
+U-238 Peak 8 signal counts (N_s8): 4301.17
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1274.93
+NDf                       =           78
+Edm                       =  5.13765e-06
+NCalls                    =          120
+Constant                  =      209.158   +/-   6.85198     
+Mean                      =      4098.68   +/-   0.101006    
+Sigma                     =      5.18622   +/-   0.137635     	 (limited)
+U-238 Peak 9 total counts (N_t9): 2719.04
+U-238 Peak 9 background counts (N_b9): 1416
+U-238 Peak 9 signal counts (N_s9): 1303.04
+U235 eff: 0.67848 U238 eff 0.0834212
+U235 correction counts: 61583.2   U238 correction counts: 51559.6
+The branching ratios 235 and 238: 57.2 +/-(9) , 0.842 +/- (8) 
+Total U-235 decay counts (N_sum235): 1076.63
+Total U-238 decay counts (N_sum238): 61234.7
+Decay constants: lambda235 = 9.85452e-10, lambda238 = 1.55101e-10
+Half lives t_(1/2) = U-235: 7.0338(5)e8  and U-238: 4.469(3)e9
+Number of atoms: N_atoms_235 = 1.09252e+12, N_atoms_238 = 3.94805e+14
+The isotopic ratio (U-235 / U-238) =  0.00276725
+
+File Ur_Run1.root created
+Run 1 completed, results saved to Ur_Run1.root
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ ls
+[?2004l
+Ba_133.xy              Efficiencies_2nd_run.root    Eu_day2.xy       Isotope.C          Ur_Run1.root
+Calibrations.C         Efficiencies_3rd_run.root    Eu_day3.xy       Isotope_R1.C       Ur_day3.xy
+Cobalt.xy              Efficiencies_data_1.C        Europium.C       Isotope_R1_day2.C  Uranium.xy
+Eff_Run1_results.text  Efficiencies_data_2.C        Europium.xy      Isotope_R1_day3.C  Uranium_R1.txt
+Eff_Run2_results.text  Efficiencies_data_3.C        Europium_day2.C  Lab1_tables.ipynb
+Eff_Run3_results.text  Efficiencies_first_run.root  Europium_day3.C  Sources.C
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ exit
+[?2004l
+exit
+
+Script done on 2024-10-04 17:23:25-05:00 [COMMAND_EXIT_CODE="0"]

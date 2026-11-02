@@ -1,0 +1,162 @@
+Script started on 2024-11-22 09:16:38-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DMain_algorithm[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[0m.L Rutherfordexp_Ruther_theory.C 
+[0m[0mroot [1] .L Rutherfordexp_Ruther_theory.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DMain_algorithm[0m[38;5;83m[1m()
+[0mStarting main algorithm...
+Cross Section: 5698.02 ± 88.6202 mb/sr
+The Corrected Counts = 10089.2 ± 100.445
+The initial Alphas = 1.5625e+12
+The Count error initial alphas = 1.25e+06
+The Experimental Rutherford = 3618.64
+Angle: 154.9 degrees
+Adjusted Angle: 154.9 degrees
+Theoretical Cross-Section: 5698.02
+Experimental Cross-Section: 3618.64
+Ratio (Theoretical/Experimental): 1.57463
+Cross Section: 82820.3 ± 10015.1 mb/sr
+The Corrected Counts = 18544.5 ± 136.178
+The initial Alphas = 1.5625e+12
+The Count error initial alphas = 1.25e+06
+The Experimental Rutherford = 5760.12
+Angle: 60 degrees
+Adjusted Angle: 60 degrees
+Theoretical Cross-Section: 82820.3
+Experimental Cross-Section: 5760.12
+Ratio (Theoretical/Experimental): 14.3782
+Cross Section: 162269 ± 24294.7 mb/sr
+The Corrected Counts = 59116.6 ± 243.139
+The initial Alphas = 1.5625e+12
+The Count error initial alphas = 1.25e+06
+The Experimental Rutherford = 19216.4
+Angle: 50 degrees
+Adjusted Angle: 50 degrees
+Theoretical Cross-Section: 162269
+Experimental Cross-Section: 19216.4
+Ratio (Theoretical/Experimental): 8.44428
+Cross Section: 378292 ± 72561.1 mb/sr
+The Corrected Counts = 59871.4 ± 244.686
+The initial Alphas = 1.5625e+12
+The Count error initial alphas = 1.25e+06
+The Experimental Rutherford = 20178.6
+Angle: 40 degrees
+Adjusted Angle: 40 degrees
+Theoretical Cross-Section: 378292
+Experimental Cross-Section: 20178.6
+Ratio (Theoretical/Experimental): 18.7472
+Cross Section: 6252.65 ± 137.728 mb/sr
+The Corrected Counts = 14243.9 ± 119.348
+The initial Alphas = 1.5625e+12
+The Count error initial alphas = 1.25e+06
+The Experimental Rutherford = 5108.78
+Angle: 215 degrees
+Adjusted Angle: -145 degrees
+Theoretical Cross-Section: 6252.65
+Experimental Cross-Section: 5108.78
+Ratio (Theoretical/Experimental): 1.2239
+Cross Section: 113868 ± 15271.4 mb/sr
+The Corrected Counts = 235398 ± 485.178
+The initial Alphas = 1.5625e+12
+The Count error initial alphas = 1.25e+06
+The Experimental Rutherford = 84428.6
+Angle: 305 degrees
+Adjusted Angle: -55 degrees
+Theoretical Cross-Section: 113868
+Experimental Cross-Section: 84428.6
+Ratio (Theoretical/Experimental): 1.34869
+Cross Section: 62107.4 ± 6806.49 mb/sr
+The Corrected Counts = 130672 ± 361.486
+The initial Alphas = 1.5625e+12
+The Count error initial alphas = 1.25e+06
+The Experimental Rutherford = 46867.3
+Angle: 295 degrees
+Adjusted Angle: -65 degrees
+Theoretical Cross-Section: 62107.4
+Experimental Cross-Section: 46867.3
+Ratio (Theoretical/Experimental): 1.32518
+Cross Section: 20701.9 ± 1445.56 mb/sr
+The Corrected Counts = 49352.7 ± 222.155
+The initial Alphas = 1.5625e+12
+The Count error initial alphas = 1.25e+06
+The Experimental Rutherford = 17701
+Angle: 270 degrees
+Adjusted Angle: -90 degrees
+Theoretical Cross-Section: 20701.9
+Experimental Cross-Section: 17701
+Ratio (Theoretical/Experimental): 1.16953
+Cross Section: 20701.9 ± 1445.56 mb/sr
+The Corrected Counts = 50924.8 ± 225.665
+The initial Alphas = 1.5625e+12
+The Count error initial alphas = 1.25e+06
+The Experimental Rutherford = 18264.9
+Angle: 270 degrees
+Adjusted Angle: -90 degrees
+Theoretical Cross-Section: 20701.9
+Experimental Cross-Section: 18264.9
+Ratio (Theoretical/Experimental): 1.13343
+Cross Section: 10226.8 ± 455.037 mb/sr
+The Corrected Counts = 16672.1 ± 129.12
+The initial Alphas = 1.5625e+12
+The Count error initial alphas = 1.25e+06
+The Experimental Rutherford = 5979.67
+Angle: 245 degrees
+Adjusted Angle: -115 degrees
+Theoretical Cross-Section: 10226.8
+Experimental Cross-Section: 5979.67
+Ratio (Theoretical/Experimental): 1.71027
+Cross Section: 7100.95 ± 205.466 mb/sr
+The Corrected Counts = 11751.6 ± 108.405
+The initial Alphas = 1.5625e+11
+The Count error initial alphas = 395285
+The Experimental Rutherford = 42148.7
+Angle: 225 degrees
+Adjusted Angle: -135 degrees
+Theoretical Cross-Section: 7100.95
+Experimental Cross-Section: 42148.7
+Ratio (Theoretical/Experimental): 0.168474
+Cross Section: 633095 ± 140180 mb/sr
+The Corrected Counts = 125043 ± 353.614
+The initial Alphas = 1.5625e+11
+The Count error initial alphas = 395285
+The Experimental Rutherford = 448482
+Angle: 325 degrees
+Adjusted Angle: -35 degrees
+Theoretical Cross-Section: 633095
+Experimental Cross-Section: 448482
+Ratio (Theoretical/Experimental): 1.41164
+Cross Section: 1.15359e+06 ± 300566 mb/sr
+The Corrected Counts = 192227 ± 438.437
+The initial Alphas = 1.5625e+11
+The Count error initial alphas = 395285
+The Experimental Rutherford = 665955
+Angle: 30 degrees
+Adjusted Angle: 30 degrees
+Theoretical Cross-Section: 1.15359e+06
+Experimental Cross-Section: 665955
+Ratio (Theoretical/Experimental): 1.73224
+Info in <TCanvas::SaveAs>: ROOT file CrossSections.root has been created
+Ratio graph saved as CrossSectionRatios.root
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ exit
+[?2004lexit
+
+Script done on 2024-11-22 09:16:55-06:00 [COMMAND_EXIT_CODE="0"]

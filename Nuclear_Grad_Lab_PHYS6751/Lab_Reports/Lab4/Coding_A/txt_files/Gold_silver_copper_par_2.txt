@@ -1,0 +1,46 @@
+Script started on 2024-11-21 14:47:01-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DMain_function[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[0m.L Silver_Copper_peakpar.C 
+[0m[0mroot [1] .L Silver_Copper_peakpar.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DMain_function[0m[38;5;83m[1m()
+[0mTheta in radians: 2.70526
+E_att (Energy attenuated): 0.043122 MeV
+E_f (Energy after foil): 6.45688 MeV
+E_avg (Average energy): 6.47844 MeV
+K (Kinetic energy transformation factor): 0.925438
+E_sc (Scattered energy): 5.99539 MeV
+The channel number is
+Gold peak energy (E_sc): 5.99539 MeV
+Gold channel number: 497.766
+----------------------------------------
+E_att (Energy attenuated): 0.00414134 MeV
+E_f (Energy after foil): 6.49586 MeV
+E_avg (Average energy): 6.49793 MeV
+K (Kinetic energy transformation factor): 0.86802
+E_sc (Scattered energy): 5.64033 MeV
+The channel number is
+Silver peak energy (E_sc): 5.64033 MeV
+Silver channel number: 467.7
+----------------------------------------
+E_att (Energy attenuated): 0.00312264 MeV
+E_f (Energy after foil): 6.49688 MeV
+E_avg (Average energy): 6.49844 MeV
+K (Kinetic energy transformation factor): 0.786251
+E_sc (Scattered energy): 5.10941 MeV
+The channel number is
+Copper peak energy (E_sc): 5.10941 MeV
+Copper channel number: 422.741
+----------------------------------------
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ exit
+[?2004lexit
+
+Script done on 2024-11-21 14:47:10-06:00 [COMMAND_EXIT_CODE="0"]

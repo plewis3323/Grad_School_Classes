@@ -1,0 +1,246 @@
+Script started on 2024-10-04 20:26:26-05:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .L Unc
+[0m[38;5;207mUnc.txt[K
+Unc_U.C[K
+Unc_Ur.txt[K
+[0m[0mroot [0] .L Unc.C
+[0mError in <TRint::ProcessLine>: macro Unc.C not found in path .:/snap/root-framework/936/usr/local/macros
+[0mroot [1] .L Unc.C[D[D_.C[D[DU.C[D[D
+[0mIn file included from input_line_8:1:
+[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:22:36: [0m[0;1;31merror: [0m[1munknown type name 'ucounts238'[0m
+double Unc_Calc(double uCounts235, ucounts238, double Eff235, double Eff238 double BR235, double BR238, double decay235, double decay238, double R, double N1, double N2) {
+[0;1;32m                                   ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:22:77: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+double Unc_Calc(double uCounts235, ucounts238, double Eff235, double Eff238 double BR235, double BR238, double decay235, double decay238, double R, double N1, double N2) {
+[0;1;32m                                                                            ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:22:16: [0m[0;1;30mnote: [0mto match this '('[0m
+double Unc_Calc(double uCounts235, ucounts238, double Eff235, double Eff238 double BR235, double BR238, double decay235, double decay238, double R, double N1, double N2) {
+[0;1;32m               ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:25:39: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'BR235'[0m
+double Un_235 = ((uCounts235/Eff235)/(BR235))/(decay235);
+[0;1;32m                                      ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:25:48: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'decay235'[0m
+double Un_235 = ((uCounts235/Eff235)/(BR235))/(decay235);
+[0;1;32m                                               ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:26:39: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'BR238'[0m
+double Un_238 = ((uCounts235/Eff238)/(BR238))/(decay238);
+[0;1;32m                                      ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:26:48: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'decay238'[0m
+double Un_238 = ((uCounts235/Eff238)/(BR238))/(decay238);
+[0;1;32m                                               ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:27:17: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'R'[0m
+double Unc_R =  R*sqrt((Un_235/N1)*(Un_235/N1)   +  (Un_238/N2)*(Un_238/N2))
+[0;1;32m                ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:27:32: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'N1'[0m
+double Unc_R =  R*sqrt((Un_235/N1)*(Un_235/N1)   +  (Un_238/N2)*(Un_238/N2))
+[0;1;32m                               ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:27:44: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'N1'[0m
+double Unc_R =  R*sqrt((Un_235/N1)*(Un_235/N1)   +  (Un_238/N2)*(Un_238/N2))
+[0;1;32m                                           ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:27:61: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'N2'[0m
+double Unc_R =  R*sqrt((Un_235/N1)*(Un_235/N1)   +  (Un_238/N2)*(Un_238/N2))
+[0;1;32m                                                            ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:27:73: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'N2'[0m
+double Unc_R =  R*sqrt((Un_235/N1)*(Un_235/N1)   +  (Un_238/N2)*(Un_238/N2))
+[0;1;32m                                                                        ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:91:2: [0m[0;1;31merror: [0m[1mexpected ';' at end of declaration[0m
+}
+[0;1;32m ^
+[0m[0;32m ;
+[0m[1m<<< cling interactive line includer >>>:1:1: [0m[0;1;31merror: [0m[1mexpected '}'[0m
+[0;1;32m^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:22:171: [0m[0;1;30mnote: [0mto match this '{'[0m
+double Unc_Calc(double uCounts235, ucounts238, double Eff235, double Eff238 double BR235, double BR238, double decay235, double decay238, double R, double N1, double N2) {
+[0;1;32m                                                                                                                                                                          ^
+[0m[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[D.L Unc_U.C
+[0mIn file included from input_line_8:1:
+[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:22:36: [0m[0;1;31merror: [0m[1munknown type name 'uCounts238'[0m
+double Unc_Calc(double uCounts235, uCounts238, double Eff235, double Eff238 double BR235, double BR238, double decay235, double decay238, double R, double N1, double N2) {
+[0;1;32m                                   ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:22:77: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+double Unc_Calc(double uCounts235, uCounts238, double Eff235, double Eff238 double BR235, double BR238, double decay235, double decay238, double R, double N1, double N2) {
+[0;1;32m                                                                            ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:22:16: [0m[0;1;30mnote: [0mto match this '('[0m
+double Unc_Calc(double uCounts235, uCounts238, double Eff235, double Eff238 double BR235, double BR238, double decay235, double decay238, double R, double N1, double N2) {
+[0;1;32m               ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:25:39: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'BR235'[0m
+double Un_235 = ((uCounts235/Eff235)/(BR235))/(decay235);
+[0;1;32m                                      ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:25:48: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'decay235'[0m
+double Un_235 = ((uCounts235/Eff235)/(BR235))/(decay235);
+[0;1;32m                                               ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:26:39: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'BR238'[0m
+double Un_238 = ((uCounts235/Eff238)/(BR238))/(decay238);
+[0;1;32m                                      ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:26:48: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'decay238'[0m
+double Un_238 = ((uCounts235/Eff238)/(BR238))/(decay238);
+[0;1;32m                                               ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:27:17: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'R'[0m
+double Unc_R =  R*sqrt((Un_235/N1)*(Un_235/N1)   +  (Un_238/N2)*(Un_238/N2));
+[0;1;32m                ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:27:32: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'N1'[0m
+double Unc_R =  R*sqrt((Un_235/N1)*(Un_235/N1)   +  (Un_238/N2)*(Un_238/N2));
+[0;1;32m                               ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:27:44: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'N1'[0m
+double Unc_R =  R*sqrt((Un_235/N1)*(Un_235/N1)   +  (Un_238/N2)*(Un_238/N2));
+[0;1;32m                                           ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:27:61: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'N2'[0m
+double Unc_R =  R*sqrt((Un_235/N1)*(Un_235/N1)   +  (Un_238/N2)*(Un_238/N2));
+[0;1;32m                                                            ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:27:73: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'N2'[0m
+double Unc_R =  R*sqrt((Un_235/N1)*(Un_235/N1)   +  (Un_238/N2)*(Un_238/N2));
+[0;1;32m                                                                        ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:47:52: [0m[0;1;31merror: [0m[1mexpected ';' at end of declaration[0m
+double R1_Count_atm[2] = {1.09252e+12, 3.94805e+14}
+[0;1;32m                                                   ^
+[0m[0;32m                                                   ;
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:48:8: [0m[0;1;31merror: [0m[1mredefinition of 'R1_Count_atm'[0m
+double R1_Count_atm[2] = {3.05179e+12, 1.08023e+15}
+[0;1;32m       ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:47:8: [0m[0;1;30mnote: [0mprevious definition is here[0m
+double R1_Count_atm[2] = {1.09252e+12, 3.94805e+14}
+[0;1;32m       ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:48:52: [0m[0;1;31merror: [0m[1mexpected ';' at end of declaration[0m
+double R1_Count_atm[2] = {3.05179e+12, 1.08023e+15}
+[0;1;32m                                                   ^
+[0m[0;32m                                                   ;
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:49:8: [0m[0;1;31merror: [0m[1mredefinition of 'R1_Count_atm'[0m
+double R1_Count_atm[2] = {1.9893e+12, 8.22421e+14}
+[0;1;32m       ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:47:8: [0m[0;1;30mnote: [0mprevious definition is here[0m
+double R1_Count_atm[2] = {1.09252e+12, 3.94805e+14}
+[0;1;32m       ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:49:51: [0m[0;1;31merror: [0m[1mexpected ';' at end of declaration[0m
+double R1_Count_atm[2] = {1.9893e+12, 8.22421e+14}
+[0;1;32m                                                  ^
+[0m[0;32m                                                  ;
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:66:30: [0m[0;1;31merror: [0m[1mexpected ';' at end of declaration[0m
+double decay238 = 1.55101e-10
+[0;1;32m                             ^
+[0m[0;32m                             ;
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:71:24: [0m[0;1;31merror: [0m[1mexpected ';' at end of declaration[0m
+double R_3 = 0.00241883
+[0;1;32m                       ^
+[0m[0;32m                       ;
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:78:153: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'R2_Count_atm'[0m
+cout << "The Run1 Uncertainty of ratio:  " << Unc_Calc(R2_unc_Counts[0], R2_unc_Counts[1], R2_Eff[0],   R2_Eff[1], B235, B238, decay235, decay238, R_2, R2_Count_atm[0], R2_Count_atm[1]) << endl; 
+[0;1;32m                                                                                                                                                        ^
+[0m[0;1;31mfatal error: [0m[1mtoo many errors emitted, stopping now [-ferror-limit=][0m
+[0mroot [1] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[D.L Unc_U.C
+[0mIn file included from input_line_8:1:
+[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:22:84: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+double Unc_Calc(double uCounts235, double uCounts238, double Eff235, double Eff238 double BR235, double BR238, double decay235, double decay238, double R, double N1, double N2) {
+[0;1;32m                                                                                   ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:22:16: [0m[0;1;30mnote: [0mto match this '('[0m
+double Unc_Calc(double uCounts235, double uCounts238, double Eff235, double Eff238 double BR235, double BR238, double decay235, double decay238, double R, double N1, double N2) {
+[0;1;32m               ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:25:39: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'BR235'[0m
+double Un_235 = ((uCounts235/Eff235)/(BR235))/(decay235);
+[0;1;32m                                      ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:25:48: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'decay235'[0m
+double Un_235 = ((uCounts235/Eff235)/(BR235))/(decay235);
+[0;1;32m                                               ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:26:39: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'BR238'[0m
+double Un_238 = ((uCounts235/Eff238)/(BR238))/(decay238);
+[0;1;32m                                      ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:26:48: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'decay238'[0m
+double Un_238 = ((uCounts235/Eff238)/(BR238))/(decay238);
+[0;1;32m                                               ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:27:17: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'R'[0m
+double Unc_R =  R*sqrt((Un_235/N1)*(Un_235/N1)   +  (Un_238/N2)*(Un_238/N2));
+[0;1;32m                ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:27:32: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'N1'[0m
+double Unc_R =  R*sqrt((Un_235/N1)*(Un_235/N1)   +  (Un_238/N2)*(Un_238/N2));
+[0;1;32m                               ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:27:44: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'N1'[0m
+double Unc_R =  R*sqrt((Un_235/N1)*(Un_235/N1)   +  (Un_238/N2)*(Un_238/N2));
+[0;1;32m                                           ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:27:61: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'N2'[0m
+double Unc_R =  R*sqrt((Un_235/N1)*(Un_235/N1)   +  (Un_238/N2)*(Un_238/N2));
+[0;1;32m                                                            ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:27:73: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'N2'[0m
+double Unc_R =  R*sqrt((Un_235/N1)*(Un_235/N1)   +  (Un_238/N2)*(Un_238/N2));
+[0;1;32m                                                                        ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:48:8: [0m[0;1;31merror: [0m[1mredefinition of 'R1_Count_atm'[0m
+double R1_Count_atm[2] = {3.05179e+12, 1.08023e+15};
+[0;1;32m       ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:47:8: [0m[0;1;30mnote: [0mprevious definition is here[0m
+double R1_Count_atm[2] = {1.09252e+12, 3.94805e+14};
+[0;1;32m       ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:49:8: [0m[0;1;31merror: [0m[1mredefinition of 'R1_Count_atm'[0m
+double R1_Count_atm[2] = {1.9893e+12, 8.22421e+14};
+[0;1;32m       ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:47:8: [0m[0;1;30mnote: [0mprevious definition is here[0m
+double R1_Count_atm[2] = {1.09252e+12, 3.94805e+14};
+[0;1;32m       ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:74:47: [0m[0;1;31merror: [0m[1mno matching function for call to 'Unc_Calc'[0m
+cout << "The Run1 Uncertainty of ratio:  " << Unc_Calc(R1_unc_Counts[0], R1_unc_Counts[1], R1_Eff[0],   R1_Eff[1], B235, B238, decay235, decay238, R_1, R1_Count_atm[0], R1_Count_atm[1]) << endl; 
+[0;1;32m                                              ^~~~~~~~
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:22:8: [0m[0;1;30mnote: [0mcandidate function not viable: requires 4 arguments, but 11 were provided[0m
+double Unc_Calc(double uCounts235, double uCounts238, double Eff235, double Eff238 double BR235, double BR238, double decay235, double decay238, double R, double N1, double N2) {
+[0;1;32m       ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:78:153: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'R2_Count_atm'[0m
+cout << "The Run1 Uncertainty of ratio:  " << Unc_Calc(R2_unc_Counts[0], R2_unc_Counts[1], R2_Eff[0],   R2_Eff[1], B235, B238, decay235, decay238, R_2, R2_Count_atm[0], R2_Count_atm[1]) << endl; 
+[0;1;32m                                                                                                                                                        ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:78:170: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'R2_Count_atm'[0m
+cout << "The Run1 Uncertainty of ratio:  " << Unc_Calc(R2_unc_Counts[0], R2_unc_Counts[1], R2_Eff[0],   R2_Eff[1], B235, B238, decay235, decay238, R_2, R2_Count_atm[0], R2_Count_atm[1]) << endl; 
+[0;1;32m                                                                                                                                                                         ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:82:153: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'R3_Count_atm'[0m
+cout << "The Run1 Uncertainty of ratio:  " << Unc_Calc(R3_unc_Counts[0], R3_unc_Counts[1], R3_Eff[0],   R3_Eff[1], B235, B238, decay235, decay238, R_3, R3_Count_atm[0], R3_Count_atm[1]) << endl; 
+[0;1;32m                                                                                                                                                        ^
+[0m[1m/home/plewis/Gradlab/Lab_reports/Lab1_Abundances/codes/Unc_U.C:82:170: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'R3_Count_atm'[0m
+cout << "The Run1 Uncertainty of ratio:  " << Unc_Calc(R3_unc_Counts[0], R3_unc_Counts[1], R3_Eff[0],   R3_Eff[1], B235, B238, decay235, decay238, R_3, R3_Count_atm[0], R3_Count_atm[1]) << endl; 
+[0;1;32m                                                                                                                                                                         ^
+[0m[0mroot [1] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[D.L Unc_U.C
+[0m[0mroot [1] Ru[D[K[D[KUnx[D[Kc(0[D[K[D[0m[38;5;83m[1m()
+[0mThe Run1 Uncertainty of ratio:  4.74955e-05
+The Run2 Uncertainty of ratio:  3.01064e-05
+The Run3 Uncertainty of ratio:  3.21969e-05
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab1_Abundances/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab1_Abundances/codes[00m$ exit
+[?2004lexit
+
+Script done on 2024-10-04 20:45:35-05:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,101 @@
+Script started on 2024-12-10 23:03:51-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="131" LINES="32"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root[2Plsroot
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[Dmain_alg[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[D[D[0m.L Comp_Code.C 
+[0m[0mroot [1] .L Comp_Code.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[Dmain_alg[0m[38;5;83m[1m()
+[0mCross Section: 842.249 ± 6.52272 mb/sr
+Cross Section: 297.591 ± 2.30872 mb/sr
+Cross Section: 112.763 ± 0.878963 mb/sr
+Partial Ratio: 0.138571 ± 0.00972557
+Partial Ratio: 0.122592 ± 0.0145114
+Partial Ratio: 7.2165 ± 0.506487
+Partial Ratio: 0.884688 ± 0.119904
+Composition: 0.792918 ± 0.0109831
+Composition: 0.109876 ± 0.00628367
+Gold Composition: 79.2918 ± 1.09831%
+Silver Composition: 10.9876 ± 0.628367%
+Copper Composition: 9.72058 ± 13.1403%
+[0mroot [2] main_alg[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[D[D[0m.L Comp_Code.C 
+[0mIn file included from input_line_10:1:
+[1m/home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/Comp_Code.C:128:23: [0m[0;1;31merror: [0m[1mno matching function for call to 'sqrt'[0m
+    copperCompError = sqrt(goldCompError, 2) + pow(silverCompError, 2));
+[0;1;32m                      ^~~~
+[0m[1m/usr/include/x86_64-linux-gnu/bits/mathcalls.h:143:13: [0m[0;1;30mnote: [0mcandidate function not viable: requires single argument '__x', but 2 arguments were provided[0m
+__MATHCALL (sqrt,, (_Mdouble_ __x));
+[0;1;32m            ^
+[0m[1m/usr/include/c++/11/bits/valarray_after.h:458:33: [0m[0;1;30mnote: [0mcandidate function template not viable: requires single argument '__v', but 2 arguments were provided[0m
+    _DEFINE_EXPR_UNARY_FUNCTION(sqrt, struct std::_Sqrt)
+[0;1;32m                                ^
+[0m[1m/usr/include/c++/11/cmath:463:3: [0m[0;1;30mnote: [0mcandidate function not viable: requires single argument '__x', but 2 arguments were provided[0m
+  sqrt(float __x)
+[0;1;32m  ^
+[0m[1m/usr/include/c++/11/cmath:467:3: [0m[0;1;30mnote: [0mcandidate function not viable: requires single argument '__x', but 2 arguments were provided[0m
+  sqrt(long double __x)
+[0;1;32m  ^
+[0m[1m/usr/include/c++/11/cmath:475:5: [0m[0;1;30mnote: [0mcandidate function not viable: requires single argument '__x', but 2 arguments were provided[0m
+    sqrt(_Tp __x)
+[0;1;32m    ^
+[0m[1m/usr/include/c++/11/bits/valarray_after.h:458:33: [0m[0;1;30mnote: [0mcandidate function template not viable: requires single argument '__e', but 2 arguments were provided[0m
+    _DEFINE_EXPR_UNARY_FUNCTION(sqrt, struct std::_Sqrt)
+[0;1;32m                                ^
+[0m[1m/usr/include/c++/11/complex:929:5: [0m[0;1;30mnote: [0mcandidate function template not viable: requires single argument '__z', but 2 arguments were provided[0m
+    sqrt(const complex<_Tp>& __z) { return __complex_sqrt(__z.__rep()); }
+[0;1;32m    ^
+[0mIn file included from input_line_10:1:
+[1m/home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/Comp_Code.C:128:71: [0m[0;1;31merror: [0m[1mextraneous ')' before ';'[0m
+    copperCompError = sqrt(goldCompError, 2) + pow(silverCompError, 2));
+[0;1;32m                                                                      ^
+[0m[0mroot [3] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[D.L Comp_Code.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dmain_alg[0m[38;5;83m[1m()[K[D[D[D[D[D[D[D[D[D[D[0m.L Comp_Code.C 
+[0mIn file included from input_line_8:1:
+[1m/home/plewis/Gradlab/Lab_reports/Lab4/Coding_A/Comp_Code.C:128:29: [0m[0;1;35mwarning: [0m[1mexpression result unused [-Wunused-value][0m
+    copperCompError = sqrt((goldCompError, 2) + pow(silverCompError, 2));
+[0;1;32m                            ^~~~~~~~~~~~~
+[0m[0mroot [1] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[D.L Comp_Code.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[D.L Comp_Code.C 
+[0m[0mroot [1] .L Comp_Code.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[D.L Comp_Code.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[D.L Comp_Code.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dmain_alg[0m[38;5;83m[1m()[K[D[D[D[D[D[D[D[D[D[D[0m.L Comp_Code.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dmain_alg[0m[38;5;83m[1m()[K
+[0mCross Section: 842.249 ± 6.52272 mb/sr
+Cross Section: 297.591 ± 2.30872 mb/sr
+Cross Section: 112.763 ± 0.878963 mb/sr
+Partial Ratio: 0.138571 ± 0.00972557
+Partial Ratio: 0.122592 ± 0.0145114
+Partial Ratio: 7.2165 ± 0.506487
+Partial Ratio: 0.884688 ± 0.119904
+Composition: 0.792918 ± 0.0109831
+Composition: 0.109876 ± 0.00628367
+Gold Composition: 79.2918 ± 1.09831%
+Silver Composition: 10.9876 ± 0.628367%
+Copper Composition: 9.72058 ± 1.26536%
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ exit
+[?2004lexit
+
+Script done on 2024-12-10 23:05:20-06:00 [COMMAND_EXIT_CODE="0"]

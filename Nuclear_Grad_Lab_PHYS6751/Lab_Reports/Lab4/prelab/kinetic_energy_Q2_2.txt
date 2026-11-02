@@ -1,0 +1,30 @@
+Script started on 2024-10-30 08:59:37-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/prelab[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/prelab[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DAlphaScattering[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[0m.L kE.C [K
+[0m[0mroot [1] .L kE.C [D[D[D[D[D[D[D[D.q[K[D[DAlphaScattering[0m[38;5;83m[1m()
+[0mMaterial: Gold, Initial Energy: 2 MeV, Scattering Angle: 45 degrees -> Recoil Energy: 1.97635 MeV
+Material: Gold, Initial Energy: 2 MeV, Scattering Angle: 135 degrees -> Recoil Energy: 1.86603 MeV
+Material: Gold, Initial Energy: 6 MeV, Scattering Angle: 45 degrees -> Recoil Energy: 5.92905 MeV
+Material: Gold, Initial Energy: 6 MeV, Scattering Angle: 135 degrees -> Recoil Energy: 5.59809 MeV
+Material: Silver, Initial Energy: 2 MeV, Scattering Angle: 45 degrees -> Recoil Energy: 1.95707 MeV
+Material: Silver, Initial Energy: 2 MeV, Scattering Angle: 135 degrees -> Recoil Energy: 1.76232 MeV
+Material: Silver, Initial Energy: 6 MeV, Scattering Angle: 45 degrees -> Recoil Energy: 5.8712 MeV
+Material: Silver, Initial Energy: 6 MeV, Scattering Angle: 135 degrees -> Recoil Energy: 5.28696 MeV
+Material: Copper, Initial Energy: 2 MeV, Scattering Angle: 45 degrees -> Recoil Energy: 1.92751 MeV
+Material: Copper, Initial Energy: 2 MeV, Scattering Angle: 135 degrees -> Recoil Energy: 1.61246 MeV
+Material: Copper, Initial Energy: 6 MeV, Scattering Angle: 45 degrees -> Recoil Energy: 5.78252 MeV
+Material: Copper, Initial Energy: 6 MeV, Scattering Angle: 135 degrees -> Recoil Energy: 4.83739 MeV
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/prelab[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/prelab[00m$ exit
+[?2004lexit
+
+Script done on 2024-10-30 08:59:58-05:00 [COMMAND_EXIT_CODE="0"]

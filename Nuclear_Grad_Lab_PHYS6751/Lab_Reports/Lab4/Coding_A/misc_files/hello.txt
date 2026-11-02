@@ -1,0 +1,5 @@
+Script started on 2024-11-18 14:02:49-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="55" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ exit
+[?2004lexit
+
+Script done on 2024-11-18 14:02:58-06:00 [COMMAND_EXIT_CODE="0"]

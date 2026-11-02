@@ -1,0 +1,67 @@
+Script started on 2024-11-18 19:04:37-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="71" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Peak_Sources_Finding.C 
+[0m[0mroot [1] .L Peak_Sources_Finding.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0mEnter fit range for Peak 1:
+Start: 885 895
+End: Enter first background range for Peak 1:
+Start: 875 885
+End: Enter second background range for Peak 1:
+Start: 895 905
+End: ****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       3.9963
+NDf                       =            3
+Edm                       =  1.26489e-10
+NCalls                    =           69
+Constant                  =      3003.14   +/-   48.5474     
+Mean                      =      890.256   +/-   0.00986668  
+Sigma                     =     0.731581   +/-   0.00653584   	 (limited)
+Peak 1 Mean = 890.256
+Peak 1 Total: N_t = 5507.17
+Peak 1 Background: N_b = 0.5
+Peak 1 Signal: N_s = 5506.67
+Peak 1 Std Error = 0.00985866
+Peak 1 Sigma_counts = 74.2137
+Enter fit range for Peak 2:
+Start: 200 360       250 2 360
+End: Enter first background range for Peak 2:
+Start: 140 250
+End: Enter second background range for Peak 2:
+Start: 360 470
+End: ****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      2591.42
+NDf                       =          101
+Edm                       =  1.49356e-09
+NCalls                    =          117
+Constant                  =      748.712   +/-   9.46426     
+Mean                      =      340.161   +/-   0.0647555   
+Sigma                     =      4.94613   +/-   0.0360692    	 (limited)
+Peak 2 Mean = 340.161
+Peak 2 Total: N_t = 9282.33
+Peak 2 Background: N_b = 102
+Peak 2 Signal: N_s = 9180.33
+Peak 2 Std Error = 0.0516222
+Peak 2 Sigma_counts = 96.8728
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ ls
+[?2004lGeneralized_Peaks.C  O_tag0100.txt   Peak_Sources_Finding.C
+O_tag0090.root       O_tag0101.root  [0m[01;34mRaw_results[0m
+O_tag0090.txt        O_tag0101.txt   [01;34mmisc_files[0m
+O_tag0091.root       O_tag0110.root  [01;34mtxt_files[0m
+O_tag0091.txt        O_tag0110.txt
+O_tag0100.root       [01;34mOutput_Results[0m
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ s[Kexit
+[?2004lexit
+
+Script done on 2024-11-18 19:30:16-06:00 [COMMAND_EXIT_CODE="0"]

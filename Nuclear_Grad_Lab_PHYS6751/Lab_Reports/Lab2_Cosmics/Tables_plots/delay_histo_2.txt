@@ -1,0 +1,182 @@
+Script started on 2024-10-22 15:29:04-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab2:Cosmics/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab2:Cosmics/codes[00m$ exitroot
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Delay_Histogram.C
+[0m[0mroot [1] .L Delay_Histogram.C[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0mafter first loop
+after test on minimum>maximum
+after making the hist
+	0	0
+	100	0
+	200	0
+	300	0
+	400	0
+	500	0
+	600	0
+	700	0
+	800	0
+	900	0
+	1000	0
+	1100	0
+	1200	0
+	1300	0
+	1400	0
+	1500	0
+	1600	0
+	1700	0
+	1800	0
+	1900	0
+	2000	0
+	2100	0
+	2200	0
+	2300	0
+	2400	0
+	2500	0
+	2600	0
+	2700	0
+	2800	0
+	2900	0
+	3000	0
+	3100	0
+	3200	0
+	3300	0
+	3400	0
+	3500	0
+	3600	0
+	3700	0
+	3800	0
+	3900	0
+	4000	0
+	4100	0
+	4200	0
+	4300	0
+	4400	0
+	4500	0
+	4600	0
+	4700	0
+	4800	0
+	4900	0
+	5000	0
+	5100	0
+	5200	0
+	5300	0
+	5400	0
+	5500	0
+	5600	0
+	5700	0
+	5800	0
+	5900	0
+	6000	0
+	6100	0
+	6200	0
+	6300	0
+	6400	0
+	6500	0
+	6600	0
+	6700	0
+	6800	0
+	6900	0
+	7000	0
+	7100	0
+	7200	0
+	7300	0
+	7400	0
+	7500	0
+	7600	0
+	7700	0
+	7800	0
+	7900	0
+	8000	0
+	8100	0
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       3.7719
+NDf                       =            3
+Edm                       =  6.44472e-06
+NCalls                    =           65
+Constant                  =      152.576   +/-   12.5702     
+Mean                      =         1480   +/-   0.040623    
+Sigma                     =     0.616986   +/-   0.031706     	 (limited)
+The Total Counts: N_1 = 235.967
+Count error 1 = 15.3612
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      27.7079
+NDf                       =            9
+Edm                       =  6.31276e-08
+NCalls                    =           64
+Constant                  =      53.0145   +/-   4.07711     
+Mean                      =      2647.55   +/-   0.143736    
+Sigma                     =      2.22139   +/-   0.126305     	 (limited)
+The Total Counts: N_2 = 295.195
+Count error 2 = 17.1813
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       24.212
+NDf                       =           19
+Edm                       =   4.7615e-07
+NCalls                    =           72
+Constant                  =      17.0592   +/-   1.3761      
+Mean                      =      3810.93   +/-   0.598185    
+Sigma                     =      6.21726   +/-   0.502217     	 (limited)
+The Total Counts: N_3 = 265.754
+Count error 3 = 16.302
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      32.2125
+NDf                       =           29
+Edm                       =  1.21178e-05
+NCalls                    =           67
+Constant                  =      10.9837   +/-   0.910021    
+Mean                      =      4967.68   +/-   1.15945     
+Sigma                     =       9.3096   +/-   0.913817     	 (limited)
+The Total Counts: N_4 = 255.275
+Count error 4 = 15.9773
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      61.8871
+NDf                       =           32
+Edm                       =  7.18666e-12
+NCalls                    =           80
+Constant                  =      8.71838   +/-   0.785514    
+Mean                      =      6063.31   +/-   0.786362    
+Sigma                     =      9.22471   +/-   0.670352     	 (limited)
+The Total Counts: N_5 = 201.557
+Count error 5 = 14.1971
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      54.3532
+NDf                       =           31
+Edm                       =  1.37754e-06
+NCalls                    =           85
+Constant                  =      4.79143   +/-   0.61225     
+Mean                      =      6238.06   +/-   1.44878     
+Sigma                     =      10.3696   +/-   1.5195       	 (limited)
+The Total Counts: N_6 = 124.095
+Count error 6 = 11.1398
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      76.9125
+NDf                       =           30
+Edm                       =  1.05966e-08
+NCalls                    =           81
+Constant                  =      10.4398   +/-   0.888654    
+Mean                      =      6776.16   +/-   0.817521    
+Sigma                     =      9.84992   +/-   0.839805     	 (limited)
+The Total Counts: N_7 = 257.119
+Count error 7 = 16.0349
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab2:Cosmics/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab2:Cosmics/codes[00m$ wxit
+[?2004lbash: wxit: command not found
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab2:Cosmics/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab2:Cosmics/codes[00m$ exit
+[?2004lexit
+
+Script done on 2024-10-22 15:29:18-05:00 [COMMAND_EXIT_CODE="127"]

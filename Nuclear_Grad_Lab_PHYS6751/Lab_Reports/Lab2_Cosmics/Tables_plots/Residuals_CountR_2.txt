@@ -1,0 +1,86 @@
+Script started on 2024-10-22 15:05:19-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab2:Cosmics/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab2:Cosmics/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun2[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L muon_angD.C 
+[0m[0mroot [1] .L muon_angD.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun2[0m[38;5;83m[1m()
+[0mThe Rate Errors are: 0.343188
+The Rate Errors are: 0.387298
+The Rate Errors are: 0.35746
+The Rate Errors are: 0.310913
+The Rate Errors are: 0.256038
+The Rate Errors are: 0.24267
+The Rate Errors are: 0.191485
+The Rate Errors are: 0.137437
+The Rate Errors are: 0.11547
+The Rate Errors are: 0.110554
+the Count Rates are: 3.53333
+the Count Rates are: 4.5
+the Count Rates are: 3.83333
+the Count Rates are: 2.9
+the Count Rates are: 1.96667
+the Count Rates are: 1.76667
+the Count Rates are: 1.1
+the Count Rates are: 0.566667
+the Count Rates are: 0.4
+the Count Rates are: 0.366667
+The angles in radians are: 0
+The angles in radians are: 0.174533
+The angles in radians are: 0.349066
+The angles in radians are: 0.523599
+The angles in radians are: 0.698132
+The angles in radians are: 0.872665
+The angles in radians are: 1.0472
+The angles in radians are: 1.22173
+The angles in radians are: 1.39626
+The angles in radians are: 1.5708
+The cos^2 values are: 1
+The cos^2 values are: 0.969846
+The cos^2 values are: 0.883022
+The cos^2 values are: 0.75
+The cos^2 values are: 0.586824
+The cos^2 values are: 0.413176
+The cos^2 values are: 0.25
+The cos^2 values are: 0.116978
+The cos^2 values are: 0.0301537
+The cos^2 values are: 3.7494e-33
+The Calculated Count Rates:  3.84
+The Calculated Count Rates:  3.73235
+The Calculated Count Rates:  3.42239
+The Calculated Count Rates:  2.9475
+The Calculated Count Rates:  2.36496
+The Calculated Count Rates:  1.74504
+The Calculated Count Rates:  1.1625
+The Calculated Count Rates:  0.687611
+The Calculated Count Rates:  0.377649
+The Calculated Count Rates:  0.27
+ Residuals are:  -0.306667 +/- 2.71539
+ Residuals are:  0.767649 +/- 2.86921
+ Residuals are:  0.410944 +/- 2.69364
+ Residuals are:  -0.0475 +/- 2.41816
+ Residuals are:  -0.398295 +/- 2.08126
+ Residuals are:  0.0216287 +/- 1.87395
+ Residuals are:  -0.0625 +/- 1.50416
+ Residuals are:  -0.120944 +/- 1.11995
+ Residuals are:  0.0223513 +/- 0.881844
+ Residuals are:  0.0966667 +/- 0.797914
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      10.1791
+NDf                       =            8
+Edm                       =  2.98298e-23
+NCalls                    =           31
+p0                        =      3.57358   +/-   0.199647    
+p1                        =     0.272611   +/-   0.0701242   
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab2:Cosmics/codes[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab2:Cosmics/codes[00m$ exit
+[?2004lexit
+
+Script done on 2024-10-22 15:06:16-05:00 [COMMAND_EXIT_CODE="0"]

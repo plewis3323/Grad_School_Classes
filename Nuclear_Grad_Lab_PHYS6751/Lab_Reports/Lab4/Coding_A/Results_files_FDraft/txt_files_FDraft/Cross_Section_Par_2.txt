@@ -1,0 +1,142 @@
+Script started on 2024-12-12 16:45:16-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DMain_algorithm[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[0m.L Rutherfordexp_Ruther_theory.C 
+[0m[0mroot [1] .L Rutherfordexp_Ruther_theory.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DMain_algorithm[0m[38;5;83m[1m()
+[0mCross Section: 5698.02 ± 4.43101 mb/sr
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 154.9 degrees
+Adjusted Angle: 154.9 degrees
+Theoretical Cross Section: 5698.02 ± 4.43101 mb/sr
+Experimental Cross Section: 3618.64 ± 36.0262 mb/sr
+Ratio (Exp/Theo): 0.63507 ± 0.00634183
+The solid angle: #omega = 0.00281338
+--------------------------------------------------------
+Cross Section: 82820.3 ± 500.757 mb/sr
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 60 degrees
+Adjusted Angle: 60 degrees
+Theoretical Cross Section: 82820.3 ± 500.757 mb/sr
+Experimental Cross Section: 143144 ± 210.903 mb/sr
+Ratio (Exp/Theo): 1.72837 ± 0.010756
+The solid angle: #omega = 0.00281338
+--------------------------------------------------------
+Cross Section: 162269 ± 1214.73 mb/sr
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 50 degrees
+Adjusted Angle: 50 degrees
+Theoretical Cross Section: 162269 ± 1214.73 mb/sr
+Experimental Cross Section: 228634 ± 272.699 mb/sr
+Ratio (Exp/Theo): 1.40899 ± 0.0106806
+The solid angle: #omega = 0.00281338
+--------------------------------------------------------
+Cross Section: 378292 ± 3628.06 mb/sr
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 40 degrees
+Adjusted Angle: 40 degrees
+Theoretical Cross Section: 378292 ± 3628.06 mb/sr
+Experimental Cross Section: 463739 ± 395.577 mb/sr
+Ratio (Exp/Theo): 1.22588 ± 0.0118033
+The solid angle: #omega = 0.00281338
+--------------------------------------------------------
+Cross Section: 241364 ± 2034.06 mb/sr
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 315 degrees
+Adjusted Angle: 45 degrees
+Theoretical Cross Section: 241364 ± 2034.06 mb/sr
+Experimental Cross Section: 163858 ± 233.065 mb/sr
+Ratio (Exp/Theo): 0.678883 ± 0.00580209
+The solid angle: #omega = 0.00281338
+--------------------------------------------------------
+Cross Section: 113868 ± 763.568 mb/sr
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 305 degrees
+Adjusted Angle: 55 degrees
+Theoretical Cross Section: 113868 ± 763.568 mb/sr
+Experimental Cross Section: 74889.1 ± 154.369 mb/sr
+Ratio (Exp/Theo): 0.657685 ± 0.00461393
+The solid angle: #omega = 0.00281338
+--------------------------------------------------------
+Cross Section: 62107.4 ± 340.324 mb/sr
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 295 degrees
+Adjusted Angle: 65 degrees
+Theoretical Cross Section: 62107.4 ± 340.324 mb/sr
+Experimental Cross Section: 39527.5 ± 109.353 mb/sr
+Ratio (Exp/Theo): 0.636437 ± 0.0039067
+The solid angle: #omega = 0.00281338
+--------------------------------------------------------
+Cross Section: 20701.9 ± 72.2781 mb/sr
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 270 degrees
+Adjusted Angle: 90 degrees
+Theoretical Cross Section: 20701.9 ± 72.2781 mb/sr
+Experimental Cross Section: 12516.5 ± 56.3426 mb/sr
+Ratio (Exp/Theo): 0.604607 ± 0.00344429
+The solid angle: #omega = 0.00281338
+--------------------------------------------------------
+Cross Section: 10226.8 ± 22.7519 mb/sr
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 245 degrees
+Adjusted Angle: 115 degrees
+Theoretical Cross Section: 10226.8 ± 22.7519 mb/sr
+Experimental Cross Section: 4228.27 ± 32.7469 mb/sr
+Ratio (Exp/Theo): 0.413448 ± 0.00333155
+The solid angle: #omega = 0.00281338
+--------------------------------------------------------
+Cross Section: 7100.95 ± 10.2733 mb/sr
+Initial Alphas: 1.5625e+12 ± 1.25e+06
+Angle: 225 degrees
+Adjusted Angle: 135 degrees
+Theoretical Cross Section: 7100.95 ± 10.2733 mb/sr
+Experimental Cross Section: 4214.87 ± 38.881 mb/sr
+Ratio (Exp/Theo): 0.593564 ± 0.0055424
+The solid angle: #omega = 0.00281338
+--------------------------------------------------------
+Cross Section: 633095 ± 7009.02 mb/sr
+Initial Alphas: 1.5625e+11 ± 395285
+Angle: 325 degrees
+Adjusted Angle: 35 degrees
+Theoretical Cross Section: 633095 ± 7009.02 mb/sr
+Experimental Cross Section: 448482 ± 1268.35 mb/sr
+Ratio (Exp/Theo): 0.708397 ± 0.00809452
+The solid angle: #omega = 0.00281338
+--------------------------------------------------------
+Cross Section: 1.15359e+06 ± 15028.3 mb/sr
+Initial Alphas: 1.5625e+11 ± 395285
+Angle: 30 degrees
+Adjusted Angle: 30 degrees
+Theoretical Cross Section: 1.15359e+06 ± 15028.3 mb/sr
+Experimental Cross Section: 657537 ± 1499.86 mb/sr
+Ratio (Exp/Theo): 0.569991 ± 0.00753844
+The solid angle: #omega = 0.00281338
+--------------------------------------------------------
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       391744
+NDf                       =           11
+Edm                       =  2.53547e-10
+NCalls                    =           57
+p0                        =   -0.0016589   +/-   2.83063e-07 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       495940
+NDf                       =           11
+Edm                       =  6.39992e-08
+NCalls                    =           63
+p0                        =  -0.00207216   +/-   2.85091e-07 
+Info in <TCanvas::SaveAs>: ROOT file CrossSections_with_Fits_SameCanvas_AC.root has been created
+Info in <TCanvas::SaveAs>: ROOT file RatioGraph_with_Fit_AC.root has been created
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ exit
+[?2004lexit
+
+Script done on 2024-12-12 16:45:29-06:00 [COMMAND_EXIT_CODE="0"]

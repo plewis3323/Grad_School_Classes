@@ -1,0 +1,65 @@
+Script started on 2024-11-18 21:56:25-06:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="71" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Peak_Sources_Finding.C 
+[0m[0mroot [1] .L Peak_Sources_Finding.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0mEnter fit range for Peak 1:
+Start: 450 5 650
+End: Enter first background range for Peak 1:
+Start: 250 450
+End: Enter second background range for Peak 1:
+Start: 650 850
+End: Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      4406.99
+NDf                       =           95
+Edm                       =      512.636
+NCalls                    =          484
+Constant                  =       896.93   +/-   65.654      
+Mean                      =      200.165   +/-   7.31601     
+Sigma                     =      106.347   +/-   3.8226       	 (limited)
+Peak 1 Mean = 200.165
+Peak 1 Total: N_t = 2246.06
+Peak 1 Background: N_b = 18779.5
+Peak 1 Signal: N_s = -16533.4
+Peak 1 Std Error = -nan
+Peak 1 Sigma_counts = 145.002
+[0mroot [2] Run1[0m[38;5;83m[1m()
+[0mWarning in <TROOT::Append>: Replacing existing TH1: Counts vs. Channel Number (Potential memory leak).
+Enter fit range for Peak 1:
+Start: 500 560
+End: Enter first background range for Peak 1:
+Start: 440 460
+End: Enter second background range for Peak 1:
+Start: 560 620
+End: ****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1080.48
+NDf                       =           38
+Edm                       =  1.54109e-05
+NCalls                    =          205
+Constant                  =      1430.72   +/-   30.5085     
+Mean                      =      529.784   +/-   0.0191255   
+Sigma                     =      1.04717   +/-   0.0143643    	 (limited)
+Peak 1 Mean = 529.784
+Peak 1 Total: N_t = 3755.46
+Peak 1 Background: N_b = 619.5
+Peak 1 Signal: N_s = 3135.96
+Peak 1 Std Error = 0.0186997
+Peak 1 Sigma_counts = 66.1434
+[0mroot [3] .q
+[0m[?2004h]0;plewis@MSI: ~/Gradlab/Lab_reports/Lab4/Coding_A[01;32mplewis@MSI[00m:[01;34m~/Gradlab/Lab_reports/Lab4/Coding_A[00m$ ei[Kxit
+[?2004lexit
+
+Script done on 2024-11-18 21:58:30-06:00 [COMMAND_EXIT_CODE="0"]
