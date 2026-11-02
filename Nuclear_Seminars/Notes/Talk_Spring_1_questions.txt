@@ -1,0 +1,39 @@
+Group 5: 
+
+
+Are there any experiments planned to measure the mass difference with respect to the tau neutrino?
+What phenomena are related to the normal or inverted mass order or δ, such like 0γββ (mass order)?
+When looking at the T2K and NOvA plots, what specific parameter degeneracies does the joint fit (combined T2K and NOvA) break that each experiment alone cannot?
+
+
+Group 4: 
+
+
+Good Evening. Here are the questions from group #4 (Myself, Abhinav, and Unish) for nuclear lunch.
+1: Would it be advantageous to include detectors in the middle of the neutrino beam flight-path where it's expected to have minimum probability?
+2: What are the "nightmare" systematic parameters discussed in the paper? What roles do they play in the analysis?
+
+
+Group 6: 
+
+1.) What are the benefits of treating systematic uncertainties as uncorrelated between the two experiments?
+2.) What are sideband samples and how do they affect detector systematic uncertainties?
+3.) In the paper, they say that they tested the goodness of their fit of their model to the data using the P-value method. Can you explain in more detail what the P-value method is and how it was used?
+
+
+Group 3: 
+
+What's the physical significance of the mixing angle (theta_23) being in a specific octant?
+How do mass differences between neutrino states lead to neutrino oscillations?
+How do the paper's results influence the development of future neutrino experiments (e.g. DUNE, Hyperkamiokande)?
+
+Group 2: 
+
+ Provide a detailed explanation of the Jarlskog invariant.
+
+
+Group 1: 
+
+Why does there need to such a large distance between the detector and source? How precise does the value need to be?
+-Why do neutrinos oscillate?
+ -What is a "Bayes factor"?

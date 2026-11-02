@@ -1,0 +1,112 @@
+
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[D.L Isotope_R1_day2.C[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[D.L Isotope_R1_day2.C
+[0m[0mroot [1] .L Isotope_R1_day2.C[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[D.L Isotope_R1_day2.C[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1034.44
+NDf                       =           13
+Edm                       =  6.80531e-06
+NCalls                    =           71
+Constant                  =      2929.76   +/-   26.0541     
+Mean                      =      872.917   +/-   0.0268515   
+Sigma                     =      3.94972   +/-   0.0330822    	 (limited)
+U-235 Peak 2 total counts (N_t2): 27295.5
+U-235 Peak 2 background counts (N_b2): 13436.5
+U-235 Peak 2 signal counts (N_s2): 13859
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      744.536
+NDf                       =           14
+Edm                       =  6.38852e-07
+NCalls                    =           76
+Constant                  =      1845.75   +/-   19.1209     
+Mean                      =      976.031   +/-   0.0439082   
+Sigma                     =      5.05677   +/-   0.0615079    	 (limited)
+U-235 Peak 3 total counts (N_t3): 20582.2
+U-235 Peak 3 background counts (N_b3): 13038.5
+U-235 Peak 3 signal counts (N_s3): 7543.68
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      8131.08
+NDf                       =           23
+Edm                       =   1.5115e-08
+NCalls                    =           88
+Constant                  =      17801.4   +/-   70.9104     
+Mean                      =      1092.57   +/-   0.00782881  
+Sigma                     =      2.67407   +/-   0.00731477   	 (limited)
+Mean = 1092.57
+N_t = 119321
+N_b = 17139.5
+N_s = 102181
+std error = 0.00836541
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      551.444
+NDf                       =           23
+Edm                       =  4.04293e-09
+NCalls                    =           94
+Constant                  =      540.682   +/-   7.9886      
+Mean                      =      1470.53   +/-   0.1492      
+Sigma                     =      10.0357   +/-   0.254398     	 (limited)
+U-238 Peak 5 total counts (N_t5): 10586.1
+U-238 Peak 5 background counts (N_b5): 8378.5
+U-238 Peak 5 signal counts (N_s5): 2207.57
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      182.712
+NDf                       =           20
+Edm                       =  4.12248e-06
+NCalls                    =           73
+Constant                  =      192.082   +/-   5.66781     
+Mean                      =      3977.61   +/-   0.143319    
+Sigma                     =      6.31119   +/-   0.204044     	 (limited)
+U-238 Peak 6 total counts (N_t6): 2761.36
+U-238 Peak 6 background counts (N_b6): 1193.5
+U-238 Peak 6 signal counts (N_s6): 1567.86
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      14.9591
+NDf                       =           14
+Edm                       =  2.49504e-08
+NCalls                    =           82
+Constant                  =      152.741   +/-   5.03042     
+Mean                      =      4202.71   +/-   0.171641    
+Sigma                     =      5.49608   +/-   0.224403     	 (limited)
+U-238 Peak 7 total counts (N_t7): 1790.91
+U-238 Peak 7 background counts (N_b7): 1197.5
+U-238 Peak 7 signal counts (N_s7): 593.41
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      556.661
+NDf                       =           58
+Edm                       =   1.7544e-07
+NCalls                    =           85
+Constant                  =       1096.6   +/-   12.8858     
+Mean                      =      5312.71   +/-   0.0405849   
+Sigma                     =      4.32135   +/-   0.0317193    	 (limited)
+U-235 Peak 8 total counts (N_t8): 11878.4
+U-235 Peak 8 background counts (N_b8): 696
+U-235 Peak 8 signal counts (N_s8): 11182.4
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      3194.11
+NDf                       =           78
+Edm                       =   6.5893e-09
+NCalls                    =          118
+Constant                  =      579.691   +/-   10.99       
+Mean                      =      4099.61   +/-   0.0581649   
+Sigma                     =      4.77877   +/-   0.0700835    	 (limited)
+U-238 Peak 9 total counts (N_t9): 6943.89
+U-238 Peak 9 background counts (N_b9): 3409.5
+U-238 Peak 9 signal counts (N_s9): 3534.39
+U235 eff: 0.593998U238 eff 0.0792668
+U235 count: 172023U238 count: 141073
+The branching ratios 235 and 238: 57.2 +/-(9) , 0.842 +/- (8) 
+Total U-235 decay counts (N_sum235): 3007.39
+Total U-238 decay counts (N_sum238): 167545
+Decay constants: lambda235 = 9.85452e-10, lambda238 = 1.55101e-10
+Number of atoms: N_atoms_235 = 3.05179e+12, N_atoms_238 = 1.08023e+15
+The isotopic ratio (U-235 / U-238) =  0.00282513
+

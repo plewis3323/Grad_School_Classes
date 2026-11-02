@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.root
+*:Zone.Identifier
+desktop.ini
+.claude/
+config.json

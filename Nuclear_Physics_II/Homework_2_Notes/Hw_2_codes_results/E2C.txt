@@ -1,0 +1,29 @@
+
+
+
+
+
+root [0] .L PartC_calculator.C
+root [1] Rapidity_Calc()
+ y = 1  eta = 1.64661 y = 2  eta = 2.73988 y = 3  eta = 3.75226root [2]
+
+
+
+root [0] .L PartC_calculator.C
+root [1] Rapidity_Calc()
+ y = 1  eta = 1.64661  eta - y = 0.646614
+ y = 2  eta = 2.73988  eta - y = 0.739881
+ y = 3  eta = 3.75226  eta - y = 0.752256
+
+
+
+
+
+
+
+
+
+
+
+
+

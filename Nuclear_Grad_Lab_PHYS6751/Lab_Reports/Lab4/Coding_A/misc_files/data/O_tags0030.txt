@@ -1,0 +1,5 @@
+Script started on 2024-11-18 14:43:06-06:00 [<not executed on terminal>]
+.L Peak_Sources_Finding.C
+[0mroot [0] .L Peak_Sources_Finding.C
+[0m[0mroot [1] 
+Script done on 2024-11-18 14:43:39-06:00 [COMMAND_EXIT_CODE="0"]

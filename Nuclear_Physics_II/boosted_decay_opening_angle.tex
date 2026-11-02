@@ -1,0 +1,82 @@
+
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, graphicx}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Minimum Decay Opening Angle in Boosted Frame}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{Two-Body Decays and Rest-Frame Kinematics}
+
+In the parent’s rest frame the two decay products are emitted back-to-back with equal and opposite 3-momenta by momentum conservation. For a parent of mass $m$ decaying into two (nearly) massless particles, each daughter carries energy $E^* = m/2$ and momentum magnitude $p^* = m/2$ (we set $c=1$) by energy conservation. In particular, if one labels the daughters “1” and “2”, then
+\[
+\vec{p}_1^* = -\vec{p}_2^*,\quad |\vec{p}_1^*| = |\vec{p}_2^*| = \frac{m}{2},\quad E_1^* = E_2^* = \frac{m}{2}.
+\]
+One can take, for example:
+\[
+p_1^* = \left(\frac{m}{2},\, p^* \sin\theta^*,\, 0,\, p^* \cos\theta^*\right),\qquad
+p_2^* = \left(\frac{m}{2},\, -p^* \sin\theta^*,\, 0,\, -p^* \cos\theta^*\right).
+\]
+
+\section*{Lorentz Boost to the Lab Frame}
+
+We now boost this decay to the lab frame where the parent has total energy $E_{\rm lab} = E \gg m$ and velocity $\beta$ along the $x$-axis. The Lorentz transformation gives:
+\[
+E_{\rm lab} = \gamma(E^* + \beta p^*_x), \quad
+p_{x,{\rm lab}} = \gamma(p^*_x + \beta E^*), \quad
+p_{y,{\rm lab}} = p^*_y, \quad p_{z,{\rm lab}} = p^*_z.
+\]
+For particle 1:
+\[
+E_1 = \gamma\left(\frac{m}{2} + \beta \frac{m}{2} \cos\theta^* \right),\quad
+p_{1x} = \gamma\left(\frac{m}{2} \cos\theta^* + \beta \frac{m}{2} \right),\quad
+p_{1y} = \frac{m}{2} \sin\theta^*,\quad
+p_{1z} = 0.
+\]
+In the perpendicular case ($\cos\theta^* = 0$):
+\[
+p_{1x} = \gamma\beta \frac{m}{2},\quad p_{1y} = \frac{m}{2}, \quad
+p_{2x} = \gamma\beta \frac{m}{2},\quad p_{2y} = -\frac{m}{2}.
+\]
+
+\section*{Opening Angle in the Lab Frame}
+
+The opening angle $\alpha$ between the two daughters in the lab is:
+\[
+\tan\theta_1 = \frac{p_{1y}}{p_{1x}} = \frac{1}{\gamma\beta}, \quad
+\tan\theta_2 = -\frac{1}{\gamma\beta}, \quad
+\Rightarrow \alpha = 2 \arctan\left(\frac{1}{\gamma\beta}\right).
+\]
+Alternatively:
+\[
+\cos\alpha = \frac{(p_{1x})^2 - (p_{1y})^2}{(p_{1x}^2 + p_{1y}^2)}
+= \frac{\gamma^2\beta^2 - 1}{\gamma^2\beta^2 + 1}
+= \frac{\gamma^2 - 2}{\gamma^2}
+= 1 - \frac{2}{\gamma^2},
+\quad \Rightarrow \alpha = 2 \arcsin\left(\frac{m}{E}\right).
+\]
+
+\section*{General Expression for Arbitrary Decay Angle}
+
+\[
+\cos\alpha = \frac{E^2\beta^2\cos^2\theta^* - m^2\sin^2\theta^*}{E^2\beta^2 \cos^2\theta^* + m^2\sin^2\theta^*}.
+\]
+
+\section*{Numerical Results ($E = 10$ GeV)}
+
+Using:
+\begin{itemize}
+\item $m_{J/\psi} = 3.097$ GeV $\Rightarrow \alpha_{\min} \approx 2 \arcsin(3.097/10) \approx 36.1^\circ$,
+\item $m_{\pi^0} = 0.135$ GeV $\Rightarrow \alpha_{\min} \approx 2 \arcsin(0.135/10) \approx 1.55^\circ$.
+\end{itemize}
+
+\section*{Conclusion}
+
+The full relativistic treatment shows that for a highly boosted parent ($E \gg m$), the two decay products become collimated in the lab. The minimum opening angle is $\alpha_{\min} = 2 \arcsin(m/E)$.
+
+\end{document}

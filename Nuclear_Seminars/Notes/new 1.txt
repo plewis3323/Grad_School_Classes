@@ -1,0 +1,23 @@
+Yes — Figure 2 (page 3) is your answer in a picture.Show Fig 2 from the paperShow Fig 2 from the paperHere's how to read this figure in 30 seconds:
+Top panel — the 20% effect:
+
+The y-axis is how tightly bound the remnant is (more energy radiated as gravitational waves = more bound).
+The three colored lines are the three simulations: blue = no flavor mixing, orange = mixing in outer region, green = mixing deeper in.
+Look at where the lines end up on the right side: the green line (ρ\rho
+ρ-13) is ~20% higher than the blue line (No-Mixing). That gap
+is the 20% increase. More flavor mixing → faster cooling → tighter remnant → more GW energy radiated.
+
+Bottom panel — what detectors would actually see:
+
+This is the gravitational-wave spectrum — what frequency the signal comes out at and how loud it is.
+The big peak around 2400–2600 Hz is the main vibration frequency of the remnant (called f2f_2
+f2​).
+
+The inset zooms in: the peaks shift by ~100 Hz between models.
+
+Why this matters for CE and ET in plain language:
+
+Cosmic Explorer = proposed US detector with 40 km arms (10× LIGO), plus a 20 km detector tuned specifically for this 2000–4000 Hz band where those peaks sit.
+Einstein Telescope = proposed European underground detector, also ~10× more sensitive than current detectors.
+Both are designed to finally see this post-merger signal that current detectors cannot detect (LIGO couldn't see it even from GW170817 at only 40 Mpc away).
+The 20% louder signal from flavor mixing means ~33% more space volume where CE/ET can catch these signals, and the ~100 Hz peak shift is right at the edge of what these detectors can measure — meaning they could potentially tell us whether neutrino flavor conversion is happening inside the remnant just from the gravitational-wave signal alone.

@@ -1,0 +1,24 @@
+1.  How do the paper's results influence the development of future neutrino experiments (e.g. DUNE, Hyperkamiokande)?  In particular, are there any experiments planned to measure the mass difference with respect to the tau neutrino?
+--Jack
+
+2.  How do mass differences between neutrino states lead to neutrino oscillations, i.e. why does oscillation happen?
+--Abhinav
+
+3.  Why does there need to such a large distance between the detector and source? How precise does the value need to be?  Would it be advantageous to include detectors in the middle of the neutrino beam flight-path where it's expected to have minimum probability?
+--Joseph
+
+4.  What are the "nightmare" systematic parameters discussed in the paper? What roles do they play in the analysis?  What are the benefits of treating systematic uncertainties as uncorrelated between the two experiments?
+--Yoon
+
+5.  What's the physical significance of the mixing angle (theta_23) being in a specific octant?
+--Jose
+
+6.  What phenomena are related to the normal or inverted mass order or δ, such like 0γββ (mass order)?
+--Joel
+
+7.  When looking at the T2K and NOvA plots, what specific parameter degeneracies does the joint fit (combined T2K and NOvA) break that each experiment 
+alone cannot?
+--Unish
+
+8.  What are sideband samples and how do they affect detector systematic uncertainties?
+--Mark
